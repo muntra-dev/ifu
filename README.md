@@ -12,8 +12,8 @@
 | | **Manufacturer:**<br>Muntra AB<br>Mäster Samuelsgatan 36<br>111 57 Stockholm<br>Sweden<br><br>Phone: +46 (0)8-40906890<br>E-mail:  support@muntra.se<br>Website:  https://about.muntra.se<br><br>The **date of manufacture** is shown in the software. |
 | | **Read all instructions before use!** |
 | ![](images/REF.png) | The catalog number is MPMS Rev2.<br><br>Current product version is shown in the software (Version x.y.z). |
-| | W A R N I N G !<br>This symbol alerts the user to the risk of possible injury, death or other serious adverse reactions. |
-| | C A U T I O N !<br>This symbol alerts the user to the risk of possible injury, death or other serious adverse reactions. |
+| ![](images/WARNING.png) | W A R N I N G !<br>This symbol alerts the user to the risk of possible injury, death or other serious adverse reactions. |
+| ![](images/WARNING.png) | C A U T I O N !<br>This symbol alerts the user to the risk of possible injury, death or other serious adverse reactions. |
 
 
 ## 2. Important Safety Precautions
