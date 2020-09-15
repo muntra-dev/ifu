@@ -1,9 +1,9 @@
-<img src="/assets/images/muntra-logo-55c7d10959ccd3b185b236ee327f91de.png" alt="Muntra" class="center-img" height="50" width="107">
 
 # Muntra Patient Management System (“MPMS”) Instructions For Use
 
 ## 1. Labeling and Symbols
 Publication date: 2020-06-25
+
 Revision number: Rev2
 
 ## 2. Important Safety Precautions
@@ -41,9 +41,9 @@ MPMS is a Class IIa medical device, CE-marked according to the directive 93/42/E
 | 93/42/EEC | Medical Devices Directive |
 
 ## 5. Intended Use
-The intended use can be found in [Muntra's intended use](156)
+The intended use can be found in [Muntra's intended use](https://support.muntra.se/what-is-the-intended-use-of-muntras-patient-management-system-mpms/q/156)
 ### 5.1 Intended User
-MPMS is intended to be used by licensed dentists, licensed dental hygienists, dental practitioners and other practitioners assisting the caregiver. For further information, see [Intended use and usage](156).
+MPMS is intended to be used by licensed dentists, licensed dental hygienists, dental practitioners and other practitioners assisting the caregiver. For further information, see [Intended use and usage](https://support.muntra.se/what-is-the-intended-use-of-muntras-patient-management-system-mpms/q/156).
 ### 5.2 Intended Patient Population
 MPMS is applicable to all types of dentistry patients. The intended purpose of the product is applicable regardless of age, gender, weight and health condition. Muntra does not apply any limitations to the patient target group.
 ### 5.3 Indications
