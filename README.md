@@ -28,8 +28,8 @@ MPMS is a Class IIa medical device, CE-marked according to the directive 93/42/E
 
 ### 4.1 Compliance with European standards
 
-| Standarad | Name/Description |
-| --------- | ---------------- |
+| Standard | Name/Description |
+| -------- | ---------------- |
 | IEC 62304:2015-06 | Medical device software – Software life cycle processes |
 | IEC 62366-1:2015 | Medical devices - Part 1: Application of usability engineering to medical devices |
 | ISO 13485:2016 | Quality management systems – Requirements for regulatory purposes |
