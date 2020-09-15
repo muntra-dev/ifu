@@ -1,4 +1,4 @@
-
+![](images/mpms-intro.png)
 # Muntra Patient Management System (“MPMS”) Instructions For Use
 
 ## 1. Labeling and Symbols
