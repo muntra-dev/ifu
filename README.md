@@ -6,6 +6,14 @@ Publication date: 2020-06-25
 
 Revision number: Rev2
 
+| | MPMS is a medical device, CE-marked according to the directive 93/42/EEC. |
+| | Manufacturer:<br>Muntra AB<br>Mäster Samuelsgatan 36<br>111 57 Stockholm<br>Sweden<br><br>Phone: +46 (0)8-40906890<br>E-mail:  support@muntra.se<br>Website:  https://about.muntra.se<br><br>The date of manufacture is shown in the software. |
+| | Read all instructions before use! |
+| | The catalog number is MPMS Rev2.<br><br>Current product version is shown in the software (Version x.y.z). |
+| | W A R N I N G !<br>This symbol alerts the user to the risk of possible injury, death or other serious adverse reactions. |
+| | C A U T I O N !<br>This symbol alerts the user to the risk of possible injury, death or other serious adverse reactions. |
+
+
 ## 2. Important Safety Precautions
 - The product must be installed properly before being put into clinical use.
 - The product may only be used by authorized personnel.
