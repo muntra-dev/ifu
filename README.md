@@ -28,15 +28,17 @@ MPMS is a Class IIa medical device, CE-marked according to the directive 93/42/E
 
 ### 4.1 Compliance with European standards
 
-- IEC 62304:2015-06: Medical device software – Software life cycle processes
-- IEC 62366-1:2015: Medical devices - Part 1: Application of usability engineering to medical devices
-- ISO 13485:2016: Quality management systems – Requirements for regulatory purposes
-- ISO 14971:2019: Medical Devices – Application of Risk Management to Medical Devices
-- IEC 80001-1:2010-10: Application of risk management for IT-networks incorporating medical devices – Part 1: Roles, responsibilities and activities
-- ISO 27001:2013: Information technology — Security techniques — Information security management systems — Requirements
-- MEDDEV 2.12/2 rev2: Post-market Clinical Follow-up Studies
-- MEDDEV 2.7/1 revision 4: Clinical Evaluation: A Guide for Manufacturers and Notified Bodies
-- 93/42/EEC: Medical Devices Directive
+| Standarad | Name/Description |
+| --------- | ---------------- |
+| IEC 62304:2015-06 | Medical device software – Software life cycle processes |
+| IEC 62366-1:2015 | Medical devices - Part 1: Application of usability engineering to medical devices |
+| ISO 13485:2016 | Quality management systems – Requirements for regulatory purposes |
+| ISO 14971:2019 | Medical Devices – Application of Risk Management to Medical Devices |
+| IEC 80001-1:2010-10 | Application of risk management for IT-networks incorporating medical devices – Part 1: Roles, responsibilities and activities |
+| ISO 27001:2013 | Information technology — Security techniques — Information security management systems — Requirements |
+| MEDDEV 2.12/2 rev2 | Post-market Clinical Follow-up Studies |
+| MEDDEV 2.7/1 revision 4 | Clinical Evaluation: A Guide for Manufacturers and Notified Bodies |
+| 93/42/EEC | Medical Devices Directive |
 
 ## 5. Intended Use
 The intended use can be found in [Muntra's intended use](156)
