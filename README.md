@@ -66,6 +66,7 @@ The primary undesirable side effect is a faulty diagnosis that leads to incorrec
 MPMS is not a consumable device and thus has no shelf lifetime. The device lifetime is ongoing as long as the technology is applicable for the clinical need.
 
 ## 6. Installation
+![](images/installation-warning.png)
 Before the product may be put to clinical use, it must be installed properly according to the <a href="https://support.muntra.se/installation/t/7">installation instructions</a>.
 
 Installation is performed on one or several computers in a network. All computers may or may not connect to a common server that stores the X-ray software's database with patient information and images. Each computer in a treatment room is a workstation with connected equipment such as sensors and cameras as well as third party software such as drivers. In Muntra, settings are stored centrally. Each workstation may have additional settings that may be different between computers.
