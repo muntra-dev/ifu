@@ -110,6 +110,7 @@ MPMS’ referral module enables the caregiver to instantly share referrals with 
 
 Refer to the instructions on <a href="https://support.muntra.se/referral/t/19">referrals</a> for further details.
 #### 7.3.5 X-Ray
+![](images/xray-warning.png)
 MPMS integrates seamlessly against applicable X-ray software solutions. Also, MPMS has its own image capture and image handling functionality.
 
 Refer to the instructions on <a href="https://support.muntra.se/x-ray/t/12">x-ray</a> for further details.
