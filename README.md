@@ -1,4 +1,5 @@
 <img src="/assets/images/muntra-logo-55c7d10959ccd3b185b236ee327f91de.png" alt="Muntra" class="center-img" height="50" width="107">
+
 # Muntra Patient Management System (“MPMS”) Instructions For Use
 
 ## 1. Labeling and Symbols
