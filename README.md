@@ -75,6 +75,7 @@ When installing a workstation, the correct plugins needed for the attached equip
 
 Refer to the instructions on <a href="https://support.muntra.se/installation/t/7">installation</a>, <a href="https://support.muntra.se/clinic-settings/t/9">clinic settings</a> and <a href="https://support.muntra.se/user-settings/t/8">user settings</a> for further details.
 ## 7. Instructions for Use
+![](images/ifu-warning.png)
 Below is a presentation of the basic functionality of the software. Please note that the appearance and functionality may differ depending on current settings and connected equipment. All patient information in the examples below is fictitious.
 
 ### 7.1 Patient Data Management
@@ -96,6 +97,7 @@ MPMS’ treatment planning functionality aims to enable the formulation of a pla
 
 Refer to the instructions on <a href="https://support.muntra.se/treatment-planning/t/16">treatment planning</a> for further details.
 #### 7.3.2 Medical Records Management
+![](images/medical-records-mgmt-warning.png)
 MPMS’ provides support for caregivers to define, store, edit and remove medical records in accordance with applicable laws and regulations.
 
 Refer to the instructions on <a href="https://support.muntra.se/medical-records-management/t/14">medical records management</a> for further details.
