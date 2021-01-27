@@ -90,17 +90,21 @@ MPMS’ time management functionality covers tactical planning, scheduling of pa
 - creating and scheduling emails, text messages and mail to maximize the chance that the patient appears for the appointment
 </ul>
 Refer to the instructions on <a href="https://support.muntra.se/time-management/t/6">time management</a> for further details.
+
 ### 7.3 Treatment
 MPMS’ treatment functionality encompasses a wide variety of treatment-related processes covering planning, execution and follow-up.
+
 #### 7.3.1 Treatment Planning
-MPMS’ treatment planning functionality aims to enable the formulation of a plan for improving the patient’s health status. This includes defining a easy-to-understand patient document describing the proposed treatment procedure. It includes planning and hence also relates to claims management.
+MPMS’ treatment planning functionality aims to enable the formulation of a plan for improving the patient’s health status. This includes defining an easy-to-understand patient document describing the proposed treatment procedure. It includes planning and hence also relates to claims management.
 
 Refer to the instructions on <a href="https://support.muntra.se/treatment-planning/t/16">treatment planning</a> for further details.
+
 #### 7.3.2 Medical Records Management
 ![](images/medical-records-mgmt-warning.png)
 MPMS’ provides support for caregivers to define, store, edit and remove medical records in accordance with applicable laws and regulations.
 
 Refer to the instructions on <a href="https://support.muntra.se/medical-records-management/t/14">medical records management</a> for further details.
+
 #### 7.3.3 Medical Prescription
 MPMS’ e-prescription module enables the caregiver to create and send an electronic prescription that can instantly be expedited at any local pharmacy (selected markets apply).
 
