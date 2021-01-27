@@ -1,5 +1,6 @@
 ![](images/mpms-intro.png)
 # Muntra Patient Management System (“MPMS”) Instructions For Use
+A physical copy of this document should be regarded as an "uncontrolled copy". The holder of an uncontrolled copy is responsible for checking the accuracy of the document. Muntra's internal handling and review of documents is only done in the electronic version.
 
 ## 1. Labeling and Symbols
 **Publication date:** 2020-06-25
