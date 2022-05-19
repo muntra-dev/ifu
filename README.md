@@ -3,14 +3,14 @@
 A physical copy of this document should be regarded as an "uncontrolled copy". The holder of an uncontrolled copy is responsible for checking the accuracy of the document. Muntra's internal handling and review of documents is only done in the electronic version.
 
 ## 1. Labeling and Symbols
-**Publication date:** 2020-06-25
+**Publication date:** 2022-05-19
 
-**Revision number:** Rev2
+**Revision number:** Rev3
 
 |    |    |
 | -- | -- |
 | ![](images/CE.png) | MPMS is a medical device, CE-marked according to the directive 93/42/EEC. |
-| ![](images/Manufacturer.png) | **Manufacturer:**<br>Muntra AB<br>Mäster Samuelsgatan 36<br>111 57 Stockholm<br>Sweden<br><br>Phone: +46 (0)8-40906890<br>E-mail:  support@muntra.se<br>Website:  https://about.muntra.se<br><br>The **date of manufacture** is shown in the software. |
+| ![](images/Manufacturer.png) | **Manufacturer:**<br>Muntra AB<br>Katarinavägen 15<br>116 45 Stockholm<br>Sweden<br><br>Phone: +46 (0)8-40 90 68 90<br>E-mail: support@muntra.se<br>Website:  https://about.muntra.se<br><br>The **date of manufacture** is shown in the software. |
 | ![](images/IFU.png) | **Read all instructions before use!** |
 | ![](images/REF.png) | The catalog number is MPMS Rev2.<br><br>Current product version is shown in the software (Version x.y.z). |
 | ![](images/Warning.png) | W A R N I N G !<br>This symbol alerts the user to the risk of possible injury, death or other serious adverse reactions. |
