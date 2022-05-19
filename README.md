@@ -77,6 +77,9 @@ When installing a workstation, the correct plugins needed for the attached equip
 Refer to the instructions on <a href="https://support.muntra.se/installation/t/7">installation</a>, <a href="https://support.muntra.se/clinic-settings/t/9">clinic settings</a> and <a href="https://support.muntra.se/user-settings/t/8">user settings</a> for further details.
 ## 7. Instructions for Use
 ![](images/ifu-warning.png)
+### CAUTION
+Backups are currently not performed in real time, but every night.
+
 Below is a presentation of the basic functionality of the software. Please note that the appearance and functionality may differ depending on current settings and connected equipment. All patient information in the examples below is fictitious.
 
 ### 7.1 Patient Data Management
