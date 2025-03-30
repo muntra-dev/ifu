@@ -5,7 +5,7 @@
 | -------- | ------------------- | -------------- | --------------- |
 | 15-01    | 23 Oct 2019         | Rev3           | 19 May 2022     |
 
-![](images/MPMS_LABLE_.png)
+![](images/label_.png)
 
 A physical copy of this document should be regarded as an "uncontrolled copy". The holder of an uncontrolled copy is responsible for checking the accuracy of the document. Muntra's internal handling and review of documents is only done in the electronic version.
 
