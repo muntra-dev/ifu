@@ -5,8 +5,6 @@
 | -------- | ------------------- | -------------- | --------------- |
 | 15-01    | 23 Oct 2019         | Rev3           | 19 May 2022     |
 
-![](images/label_.png)
-
 A physical copy of this document should be regarded as an "uncontrolled copy". The holder of an uncontrolled copy is responsible for checking the accuracy of the document. Muntra's internal handling and review of documents is only done in the electronic version.
 
 If you would like to receive a printed version of the Instructions for Use (IFU), please contact Muntra by email at support@muntra.se. Printed copies are provided free of charge upon request.
@@ -14,6 +12,8 @@ If you would like to receive a printed version of the Instructions for Use (IFU)
 If you require this document in another language, please contact us at support@muntra.se. We will provide a translated version as soon as possible, in accordance with local requirements
 
 ## 1. Labeling and Symbols
+
+![](images/label_.png)
 
 **Publication date:** 2025-03-30
 
