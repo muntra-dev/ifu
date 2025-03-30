@@ -1,3 +1,4 @@
+![](images/label.png)
 
 # Muntra Patient Management System (“MPMS”) Instructions For Use
 
@@ -12,8 +13,6 @@ If you would like to receive a printed version of the Instructions for Use (IFU)
 If you require this document in another language, please contact us at support@muntra.se. We will provide a translated version as soon as possible, in accordance with local requirements
 
 ## 1. Labeling and Symbols
-
-![](images/label.png)
 
 **Publication date:** 2025-03-30
 
