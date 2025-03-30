@@ -13,7 +13,7 @@ If you require this document in another language, please contact us at support@m
 
 ## 1. Labeling and Symbols
 
-![](images/label_.png)
+![](images/label.png)
 
 **Publication date:** 2025-03-30
 
