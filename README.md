@@ -261,6 +261,12 @@ In the left menu, you will find:
 
 ![](images/draw.png) To draw on an image in MPMS, Click the draw icon in the image toolbar. Choose your desired line thickness and color (if applicable). Left-click and drag on the image to draw freehand.
 
+##### 7.3.5.3 Calibrate an image
+![](images/warning-calibrate.png)
+
+![](images/calibrate.png) To calibrate an image, click the Calibration icon. Then, click and hold the left mouse button while dragging a line across the image to define the calibration distance. Once you release the mouse button, a dialog box will appear where you can enter the real-world length of the line you’ve drawn. This value will be used to calibrate measurements within the image.
+
+
 #### 7.3.6 File Handling
 
 MPMS file storage capabilities enable caregivers to quickly and securely save and back up documents. This can relate to e.g. treatment history, financials and government communication.
