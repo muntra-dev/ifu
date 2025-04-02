@@ -29,7 +29,7 @@ If you require this document in another language, please contact us at support@m
 
 ## 2. Important Safety Precautions
 
-![](images/clinidal-warning.png) 
+![](images/clinical-warning.png) 
 
 - The product must be installed properly before being put into clinical use.
 - The product may only be used by authorized personnel.
