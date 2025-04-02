@@ -146,6 +146,9 @@ When installing a workstation, the correct plugins needed for the attached equip
 
 Refer to the instructions on <a href="https://support.muntra.se/installation/t/7">installation</a>, <a href="https://support.muntra.se/clinic-settings/t/9">clinic settings</a> and <a href="https://support.muntra.se/user-settings/t/8">user settings</a> for further details.
 
+![](images/internet-warning.png)
+
+
 ### 6.1 IT & Information Security 
 
 ![](images/security-warning.png)
