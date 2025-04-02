@@ -148,6 +148,8 @@ Refer to the instructions on <a href="https://support.muntra.se/installation/t/7
 
 ### 6.1 IT & Information Security 
 
+![](images/security-warning.png)
+
 Muntra places the highest priority on information security and follows industry best practices for protecting patient data and clinical workflows. While users are always encouraged to maintain strong security hygiene locally, the Muntra system is designed to protect against unauthorized access, even in the event of local vulnerabilities.
 
 Access to Muntra requires secure multi-factor authentication (MFA), using an identity that is not stored locally on the device. Each login session is verified against Muntra’s central authentication servers. All communication between client devices and Muntra’s servers is encrypted.
