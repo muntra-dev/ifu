@@ -4,7 +4,7 @@
 
 | Dokumentnr | Datum för första utgåva | Senaste utgåva nr | Senaste utgåva datum |
 | ---------- | ----------------------- | ----------------- | -------------------- |
-| 15-01      | 23 okt 2019             | Rev3              | 19 maj 2022          |
+| 15-01      | 23 okt 2019             | Rev5              | 22 feb 2026          |
 
 En fysisk kopia av detta dokument ska betraktas som en "okontrollerad kopia". Innehavaren av en okontrollerad kopia ansvarar för att kontrollera dokumentets riktighet. Muntras interna hantering och granskning av dokument sker endast i den elektroniska versionen.
 
@@ -14,15 +14,15 @@ Om du behöver detta dokument på ett annat språk, vänligen kontakta oss på s
 
 ## 1. Märkning och symboler
 
-**Publiceringsdatum:** 2025-03-30  
-**Revisionsnummer:** Rev4
+**Publiceringsdatum:** 2026-02-22
+**Revisionsnummer:** Rev5
 
 |                              |                                                                                                                                                                                                                                                   |
 | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![](images/CE.png)           | MPMS är en medicinteknisk produkt, CE-märkt i enlighet med Förordning (EU) 2017/745 (MDR).                                                                                                                                                        |
 | ![](images/Manufacturer.png) | **Tillverkare:**<br>Muntra AB<br>Narvavägen 12<br>115 22 Stockholm<br>Sverige<br><br>Telefon: +46 (0)8-40 90 68 90<br>E-post: support@muntra.se<br>Webbplats: https://muntra.se<br><br>**Tillverkningsdatum** visas i mjukvaran. |
 | ![](images/IFU.png)          | **Läs alla instruktioner före användning!**                                                                                                                                                                                                      |
-| ![](images/REF.png)          | Katalognumret är MPMS Rev4.<br><br>Aktuell produktversion visas i mjukvaran (Version x.y.z).                                                                                                                                                      |
+| ![](images/REF.png)          | Katalognumret är MPMS Rev5.<br><br>Aktuell produktversion visas i mjukvaran (Version x.y.z).                                                                                                                                                      |
 | ![](images/Warning.png)      | V A R N I N G !<br>Denna symbol varnar för risk för skada, dödsfall eller andra allvarliga negativa reaktioner.                                                                                                                                  |
 | ![](images/Warning.png)      | F Ö R S I K T I G H E T !<br>Denna symbol varnar för risk för skada, dödsfall eller andra allvarliga negativa reaktioner.                                                                                                                         |
 
@@ -35,6 +35,8 @@ Om du behöver detta dokument på ett annat språk, vänligen kontakta oss på s
 - Produkten får endast användas i enlighet med avsett ändamål.
 - Läs bruksanvisningen före användning och följ alla säkerhetsföreskrifter.
 - Eventuella incidenter eller skador på patient eller användare som kan ha orsakats av produkten ska rapporteras till tillverkaren eller distributören.
+
+> ⚠ **Varning:** Användaren förstår att diagnosen utförs med hjälp av en PNG-röntgenbild och inte en DICOM-bild.
 
 ## 3. Produktbeskrivning
 
@@ -81,6 +83,8 @@ Tillämplig för alla tandvårdspatienter, oberoende av ålder, kön, vikt och h
 
 Vid diagnostiskt bruk används produkten för att diagnostisera och dokumentera tillstånd såsom karies, parodontit, tand- och käkskador, inom ortodonti samt andra tillstånd i allmän- och specialisttandvård.
 
+> ⚠ **Varning:** Användaren förstår att diagnosen utförs med hjälp av en PNG-röntgenbild och inte en DICOM-bild.
+
 ### 5.4 Kontraindikationer
 
 Inga kända kontraindikationer.
@@ -104,6 +108,8 @@ Riskreducerande principer:
 - **Integritet/sekretess** – rollbaserad åtkomst och efterlevnad av GDPR och gällande cybersäkerhetsstandarder.
 
 Ingen särskild utbildning krävs för säker användning, men stöd och dokumentation tillhandahålls.
+
+> ⚠ **Varning:** Användaren förstår att diagnosen utförs med hjälp av en PNG-röntgenbild och inte en DICOM-bild.
 
 ### 5.8 Prestandaegenskaper
 
@@ -205,6 +211,8 @@ Se <a href="https://support.muntra.se/referral/t/19">remisser</a>.
 ![](images/xray-warning.png)
 
 Sömlös integration mot röntgenprogram samt egen bildinfångning/hantering.
+
+> ⚠ **Varning:** Användaren förstår att diagnosen utförs med hjälp av en PNG-röntgenbild och inte en DICOM-bild.
 
 ##### 7.3.5.1 Röntgen-UI
 
@@ -312,3 +320,4 @@ Vanliga fel beskrivs och löses i <a href="https://support.muntra.se/error-handl
 | Rev2        | 2021-07-05 | Tillagd CE-märkning, förtydligad märkning, uppdaterade säkerhetsföreskrifter           | Niels Rask-Andersen  |
 | Rev3        | 2022-05-19 | Reviderad med medicinska symboler, uppdaterad produktbeskrivning                       | Niels Rask-Andersen  |
 | Rev4        | 2025-03-30 | Övergång från MDD till MDR, tillagd säkerhets- & prestandainformation samt nyttobeskrivning | Pontus Green         |
+| Rev5        | 2026-02-22 | Tillagd ansvarsfriskrivning om att diagnos utförs med PNG-röntgenbild och inte DICOM-bild. Tillagd i avsnitt 2, 5.3, 5.7 och 7.3.5. | Pontus Green         |

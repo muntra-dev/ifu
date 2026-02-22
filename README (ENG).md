@@ -4,7 +4,7 @@
 
 | Doc. No. | Date of First Issue | Last Issue No. | Last Issue Date |
 | -------- | ------------------- | -------------- | --------------- |
-| 15-01    | 23 Oct 2019         | Rev3           | 19 May 2022     |
+| 15-01    | 23 Oct 2019         | Rev5           | 22 Feb 2026     |
 
 A physical copy of this document should be regarded as an "uncontrolled copy". The holder of an uncontrolled copy is responsible for checking the accuracy of the document. Muntra's internal handling and review of documents is only done in the electronic version.
 
@@ -14,16 +14,16 @@ If you require this document in another language, please contact us at support@m
 
 ## 1. Labeling and Symbols
 
-**Publication date:** 2025-03-30
+**Publication date:** 2026-02-22
 
-**Revision number:** Rev4
+**Revision number:** Rev5
 
 |                              |                                                                                                                                                                                                                                                   |
 | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![](images/CE.png)           | MPMS is a medical device, CE-marked in accordance with Regulation (EU) 2017/745 (MDR)EEC.                                                                                                                                                                         |
 | ![](images/Manufacturer.png) | **Manufacturer:**<br>Muntra AB<br>Narvavägen 12<br>115 22 Stockholm<br>Sweden<br><br>Phone: +46 (0)8-40 90 68 90<br>E-mail: support@muntra.se<br>Website: https://muntra.se<br><br>The **date of manufacture** is shown in the software. |
 | ![](images/IFU.png)          | **Read all instructions before use!**                                                                                                                                                                                                             |
-| ![](images/REF.png)          | The catalog number is MPMS Rev4.<br><br>Current product version is shown in the software (Version x.y.z).                                                                                                                                         |
+| ![](images/REF.png)          | The catalog number is MPMS Rev5.<br><br>Current product version is shown in the software (Version x.y.z).                                                                                                                                         |
 | ![](images/Warning.png)      | W A R N I N G !<br>This symbol alerts the user to the risk of possible injury, death or other serious adverse reactions.                                                                                                                          |
 | ![](images/Warning.png)      | C A U T I O N !<br>This symbol alerts the user to the risk of possible injury, death or other serious adverse reactions.                                                                                                                          |
 
@@ -37,6 +37,8 @@ If you require this document in another language, please contact us at support@m
 - Read the Instructions For Use before using the product and follow all safety precautions.
 - Any incident or harm to a patient or operator that might be caused by the product must be
   reported to the manufacturer or distributor.
+
+> ⚠ **Warning:** The user understands that the diagnosis is performed using a PNG X-ray image and not a DICOM image.
 
 ## 3. Product Description
 
@@ -85,6 +87,8 @@ MPMS is applicable to all types of dentistry patients. The intended purpose of t
 
 When used for diagnostic purposes, the device will be used to diagnose and document diseases and conditions such as dental caries, periodontal disease, tooth and jaw injuries, in orthodontic treatment and other conditions that are encountered by general practitioners and specialists in the dental care field.
 
+> ⚠ **Warning:** The user understands that the diagnosis is performed using a PNG X-ray image and not a DICOM image.
+
 ### 5.4 Contraindications
 
 There are no known contraindications.
@@ -109,6 +113,8 @@ To mitigate these risks, MPMS has been developed and validated with the followin
 - **Privacy**: Limits access to sensitive patient data based on user role and ensures compliance with GDPR and cybersecurity standards.
 
 The intended user of MPMS is a qualified healthcare professional with clinical training. Therefore, **no special training is required to operate the software safely**, but user support and documentation are provided for onboarding and ongoing use.
+
+> ⚠ **Warning:** The user understands that the diagnosis is performed using a PNG X-ray image and not a DICOM image.
 
 ## 5.8 Performance Characteristics
 
@@ -227,6 +233,8 @@ Refer to the instructions on <a href="https://support.muntra.se/referral/t/19">r
 
 ![](images/xray-warning.png)
 MPMS integrates seamlessly against applicable X-ray software solutions. Also, MPMS has its own image capture and image handling functionality.
+
+> ⚠ **Warning:** The user understands that the diagnosis is performed using a PNG X-ray image and not a DICOM image.
 
 ##### 7.3.5.1 X-Ray User Interface
 
@@ -354,5 +362,6 @@ Additionally, the most common errors are explained and if possible resolved in <
 | Rev2         | 2021-07-05 | Added CE mark, labeling clarification, updated safety precautions                        | Niels Rask-Andersen     |
 | Rev3         | 2022-05-19 | Revised to include medical symbols, updated product description                          | Niels Rask-Andersen     |
 | Rev4         | 2025-03-30 | Transitioned from MDD to MDR, added safety & performance information, expected benefits.  | Pontus Green     |
+| Rev5         | 2026-02-22 | Added disclaimer clarifying that diagnosis is performed using a PNG X-ray image and not a DICOM image. Disclaimer added to Sections 2, 5.3, 5.7, and 7.3.5. | Pontus Green     |
 
 

@@ -4,7 +4,7 @@
 
 | Dok.nr. | Dato for første utgave | Siste utgave nr. | Dato for siste utgave |
 | ------- | ---------------------- | ---------------- | --------------------- |
-| 15-01   | 23. okt. 2019          | Rev3             | 19. mai 2022          |
+| 15-01   | 23. okt. 2019          | Rev5             | 22. feb. 2026         |
 
 En fysisk kopi av dette dokumentet skal betraktes som en «ukontrollert kopi». Innehaveren av en ukontrollert kopi er ansvarlig for å kontrollere dokumentets riktighet. Muntras interne håndtering og gjennomgang av dokumenter gjøres kun i den elektroniske versjonen.
 
@@ -14,16 +14,16 @@ Hvis du trenger dette dokumentet på et annet språk, kontakt oss på support@mu
 
 ## 1. Merking og symboler
 
-**Publiseringsdato:** 2025-03-30
+**Publiseringsdato:** 2026-02-22
 
-**Revisjonsnummer:** Rev4
+**Revisjonsnummer:** Rev5
 
 |                              |                                                                                                                                                                                                                                                   |
 | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![](images/CE.png)           | MPMS er et medisinsk utstyr, CE-merket i samsvar med forordning (EU) 2017/745 (MDR).                                                                                                                                                             |
 | ![](images/Manufacturer.png) | **Produsent:**<br>Muntra AB<br>Narvavägen 12<br>115 22 Stockholm<br>Sverige<br><br>Telefon: +46 (0)8-40 90 68 90<br>E-post: support@muntra.se<br>Nettsted: https://muntra.se<br><br>**Produksjonsdato** vises i programvaren. |
 | ![](images/IFU.png)          | **Les alle instruksjoner før bruk!**                                                                                                                                                                                                             |
-| ![](images/REF.png)          | Katalognummeret er MPMS Rev4.<br><br>Nåværende produktversjon vises i programvaren (Versjon x.y.z).                                                                                                                                              |
+| ![](images/REF.png)          | Katalognummeret er MPMS Rev5.<br><br>Nåværende produktversjon vises i programvaren (Versjon x.y.z).                                                                                                                                              |
 | ![](images/Warning.png)      | A D V A R S E L !<br>Dette symbolet varsler brukeren om risiko for mulig skade, død eller andre alvorlige bivirkninger.                                                                                                                          |
 | ![](images/Warning.png)      | F O R S I K T I G !<br>Dette symbolet varsler brukeren om risiko for mulig skade, død eller andre alvorlige bivirkninger.                                                                                                                        |
 
@@ -36,6 +36,8 @@ Hvis du trenger dette dokumentet på et annet språk, kontakt oss på support@mu
 - Produktet må kun brukes i samsvar med tiltenkt bruk.
 - Les bruksanvisningen før bruk og følg alle sikkerhetsforholdsregler.
 - Enhver hendelse eller skade på pasient eller operatør som kan være forårsaket av produktet, skal rapporteres til produsenten eller distributøren.
+
+> ⚠ **Advarsel:** Brukeren forstår at diagnosen utføres ved bruk av et PNG-røntgenbilde og ikke et DICOM-bilde.
 
 ## 3. Produktbeskrivelse
 
@@ -84,6 +86,8 @@ MPMS er anvendelig for alle typer tannpasienter. Formålet gjelder uavhengig av 
 
 Ved diagnostisk bruk benyttes enheten til å diagnostisere og dokumentere tilstander som karies, periodontitt, tann- og kjeveskader, i ortodontisk behandling og andre tilstander som forekommer hos allmennpraktiserende og spesialisttannleger.
 
+> ⚠ **Advarsel:** Brukeren forstår at diagnosen utføres ved bruk av et PNG-røntgenbilde og ikke et DICOM-bilde.
+
 ### 5.4 Kontraindikasjoner
 
 Ingen kjente kontraindikasjoner.
@@ -108,6 +112,8 @@ For å redusere disse risikoene er MPMS utviklet og validert med følgende sentr
 - **Personvern**: Begrenser tilgang til sensitive pasientdata basert på brukerrolle og sikrer etterlevelse av GDPR og cybersikkerhetsstandarder.
 
 Tiltenkt bruker er kvalifisert helsepersonell med klinisk opplæring. Det kreves derfor **ingen særskilt opplæring for sikker bruk** av programvaren, men brukerstøtte og dokumentasjon gis ved innføring og løpende bruk.
+
+> ⚠ **Advarsel:** Brukeren forstår at diagnosen utføres ved bruk av et PNG-røntgenbilde og ikke et DICOM-bilde.
 
 ## 5.8 Ytelsesegenskaper
 
@@ -226,6 +232,8 @@ Se <a href="https://support.muntra.se/referral/t/19">henvisninger</a> for flere 
 
 ![](images/xray-warning.png)
 MPMS integreres sømløst mot relevante røntgenløsninger. MPMS har også egen bildeopptak- og bildehåndteringsfunksjonalitet.
+
+> ⚠ **Advarsel:** Brukeren forstår at diagnosen utføres ved bruk av et PNG-røntgenbilde og ikke et DICOM-bilde.
 
 ##### 7.3.5.1 Røntgen – brukergrensesnitt
 
@@ -350,3 +358,4 @@ I tillegg er de vanligste feilene forklart – og der mulig løst – i <a href=
 | Rev2         | 2021-07-05 | Lagt til CE-merking, presisering av merking, oppdaterte sikkerhetsforholdsregler                       | Niels Rask-Andersen  |
 | Rev3         | 2022-05-19 | Revidert for medisinske symboler, oppdatert produktbeskrivelse                                         | Niels Rask-Andersen  |
 | Rev4         | 2025-03-30 | Overgang fra MDD til MDR, lagt til sikkerhets- og ytelsesinformasjon samt forventede kliniske fordeler | Pontus Green         |
+| Rev5         | 2026-02-22 | Lagt til advarsel om at diagnosen utføres med PNG-røntgenbilde og ikke DICOM-bilde. Lagt til i avsnittene 2, 5.3, 5.7 og 7.3.5. | Pontus Green         |
