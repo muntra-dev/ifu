@@ -4,7 +4,7 @@
 
 | Dokumentnr | Datum för första utgåva | Senaste utgåva nr | Senaste utgåva datum |
 | ---------- | ----------------------- | ----------------- | -------------------- |
-| 15-01      | 23 okt 2019             | Rev5              | 22 feb 2026          |
+| 15-01      | 23 okt 2019             | Rev6              | 1 mar 2026           |
 
 En fysisk kopia av detta dokument ska betraktas som en "okontrollerad kopia". Innehavaren av en okontrollerad kopia ansvarar för att kontrollera dokumentets riktighet. Muntras interna hantering och granskning av dokument sker endast i den elektroniska versionen.
 
@@ -14,15 +14,15 @@ Om du behöver detta dokument på ett annat språk, vänligen kontakta oss på s
 
 ## 1. Märkning och symboler
 
-**Publiceringsdatum:** 2026-02-22
-**Revisionsnummer:** Rev5
+**Publiceringsdatum:** 2026-03-01
+**Revisionsnummer:** Rev6
 
 |                              |                                                                                                                                                                                                                                                   |
 | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![](images/CE.png)           | MPMS är en medicinteknisk produkt, CE-märkt i enlighet med Förordning (EU) 2017/745 (MDR).                                                                                                                                                        |
 | ![](images/Manufacturer.png) | **Tillverkare:**<br>Muntra AB<br>Narvavägen 12<br>115 22 Stockholm<br>Sverige<br><br>Telefon: +46 (0)8-40 90 68 90<br>E-post: support@muntra.se<br>Webbplats: https://muntra.se<br><br>**Tillverkningsdatum** visas i mjukvaran. |
 | ![](images/IFU.png)          | **Läs alla instruktioner före användning!**                                                                                                                                                                                                      |
-| ![](images/REF.png)          | Katalognumret är MPMS Rev5.<br><br>Aktuell produktversion visas i mjukvaran (Version x.y.z).                                                                                                                                                      |
+| ![](images/REF.png)          | Katalognumret är MPMS Rev6.<br><br>Aktuell produktversion visas i mjukvaran (Version x.y.z).                                                                                                                                                      |
 | ![](images/Warning.png)      | V A R N I N G !<br>Denna symbol varnar för risk för skada, dödsfall eller andra allvarliga negativa reaktioner.                                                                                                                                  |
 | ![](images/Warning.png)      | F Ö R S I K T I G H E T !<br>Denna symbol varnar för risk för skada, dödsfall eller andra allvarliga negativa reaktioner.                                                                                                                         |
 
@@ -38,6 +38,12 @@ Om du behöver detta dokument på ett annat språk, vänligen kontakta oss på s
 
 > ⚠ **Varning:** Användaren förstår att diagnosen utförs med hjälp av en PNG-röntgenbild och inte en DICOM-bild.
 
+**Försiktighetsåtgärder:**
+
+- Varje användarkonto är personligt och får inte delas.
+- Vårdgivaren ansvarar för att verifiera patientens identitet före behandling.
+- Det åligger kliniken att inhämta patientens samtycke till lagring av patientdata i enlighet med GDPR.
+
 ## 3. Produktbeskrivning
 
 ### 3.1 Produktvarianter
@@ -51,7 +57,7 @@ Desktop-applikationen är utvecklad med samma kodbas som version 1. Syftet är a
 
 ## 4. Regulatorisk information
 
-MPMS är en medicinteknisk produkt klass IIa, CE-märkt enligt Förordning (EU) 2017/745 (MDR). Produkten uppfyller europeiska standarder enligt tabell 2.
+MPMS är en medicinteknisk produkt klass IIa, CE-märkt enligt Förordning (EU) 2017/745 (MDR). Det anmälda organet är Intertek (NB 2862). Produkten uppfyller europeiska standarder enligt tabell 2.
 
 **Tabell 2. Överensstämmelse med europeiska standarder**
 
@@ -67,9 +73,21 @@ MPMS är en medicinteknisk produkt klass IIa, CE-märkt enligt Förordning (EU) 
 | MEDDEV 2.7/1 revision 4 | Klinisk utvärdering: Vägledning för tillverkare och anmälda organ                                                                 |
 | Förordning (EU) 2017/745 (MDR) | Förordningen om medicintekniska produkter                                                                                         |
 
+### 4.1 Medicintekniskt tillämpningsområde
+
+MPMS är en mjukvaruplattform med flera moduler. CE-märkningen med anmält organ nummer 2862 gäller uteslutande de medicintekniska moduler som anges nedan. Övriga moduler distribueras som del av MPMS kommersiella plattform men faller utanför CE-märkningens tillämpningsområde enligt Förordning (EU) 2017/745.
+
+| Klassificering | Moduler | CE-märkningens omfattning |
+|---|---|---|
+| Klass IIa (Regel 11) | Image Handling | CE-märkt — NB 2862 |
+| Klass I (SaMD) | E-Prescription | Medicinteknisk produkt; reglerad av E-hälsomyndigheten. Ingår ej i NB 2862 CE-märkning. |
+| Utanför MDR:s tillämpningsområde | Third-Party X-Ray Software Integration; Electronic Health Records; Medical History; Periodontal Registration; Treatment Plans; Patient Risk Evaluation; Patient Analysis; Documents; Government Audits; Pre-Assessment Claims; Patient Data Management; Appointments Management; Scheduling and Booking; Financials; Referrals; Quality Management – Incidents | Ej medicintekniska produkter — utanför MDR:s tillämpningsområde |
+
 ## 5. Avsett användningsområde
 
 MPMS är avsett som ett verktyg för att stödja beslutsfattande och hantering av patientinformation inom tandvården, samt att innefatta en dental bildmodul för bildinsamling, lagring, bearbetning och diagnostik av dentala bilder.
+
+> ℹ **Observera:** MPMS är ett diagnostiskt stödverktyg. Det ersätter inte oberoende klinisk undersökning eller professionellt omdöme. Behandlande kliniker har det fulla ansvaret för alla diagnos- och behandlingsbeslut.
 
 ### 5.1 Avsedd användare
 
@@ -85,6 +103,8 @@ Vid diagnostiskt bruk används produkten för att diagnostisera och dokumentera 
 
 > ⚠ **Varning:** Användaren förstår att diagnosen utförs med hjälp av en PNG-röntgenbild och inte en DICOM-bild.
 
+> ⚠ **Varning:** Vid granskning av diagnostiska bilder, utför en systematisk undersökning av samtliga bilder i serien. Var uppmärksam på bekräftelsebias — undvik att enbart fokusera på områden med misstänkt patologi.
+
 ### 5.4 Kontraindikationer
 
 Inga kända kontraindikationer.
@@ -95,7 +115,7 @@ Primär oönskad effekt är felaktig diagnos som leder till felaktig behandling 
 
 ### 5.6 Lagring
 
-MPMS är inte en förbrukningsvara och har ingen hållbarhetstid. Produktens livslängd fortgår så länge tekniken är relevant för kliniskt behov.
+MPMS är inte en förbrukningsvara och har ingen hållbarhetstid. Produktens livslängd fortgår så länge tekniken är relevant för kliniskt behov. MPMS har en garanterad livslängd på 5 år per licensavtal, förnybar genom programuppdateringar och supportavtal.
 
 ### 5.7 Säkerhetsegenskaper
 
@@ -123,6 +143,8 @@ Bildmodulen möjliggör:
 - Lagring/organisering av PNG- och JPEG-filer,
 - **Zoom, beskärning, rotation, spegelvändning och linjär mätning**.
 
+> ℹ **Observera:** MPMS stödjer bildformaten PNG och JPEG. Bilder i format som inte stöds avvisas automatiskt av systemet och blir inte tillgängliga för diagnostik.
+
 ### 5.9 Förväntade kliniska fördelar
 
 - Förbättrat diagnostiskt stöd via bildverktyg (zoom, rotera, mäta).  
@@ -143,6 +165,8 @@ Välj rätt plugin för ansluten utrustning. Drivrutiner och plugin kan ha extra
 
 Se även <a href="https://support.muntra.se/installation/t/7">installation</a>, <a href="https://support.muntra.se/clinic-settings/t/9">klinikinställningar</a> och <a href="https://support.muntra.se/user-settings/t/8">användarinställningar</a>.
 
+> ℹ **Observera:** En lista över kompatibel bildutrustning (sensorer, kameror) finns i <a href="https://support.muntra.se/installation/t/7">installationsanvisningarna</a>. Använd enbart bildenheter som har bekräftad kompatibilitet med MPMS. Kontakta Muntra AB innan du använder utrustning som inte finns på listan.
+
 ![](images/internet-warning.png)
 
 ### 6.1 IT & Informationssäkerhet
@@ -152,6 +176,27 @@ Se även <a href="https://support.muntra.se/installation/t/7">installation</a>, 
 Muntra prioriterar informationssäkerhet och följer branschpraxis. Åtkomst kräver MFA och verifieras mot centrala autentiseringstjänster. All kommunikation är krypterad.
 
 Ingen känslig patientdata lagras lokalt; all behandling sker i Muntras molninfrastruktur hos certifierade leverantörer. Behörigheter hanteras centralt av klinikadministratör i enlighet med GDPR och övriga regelverk.
+
+### 6.2 Systemkrav
+
+För att säkerställa säker och effektiv användning av MPMS gäller följande minimikrav:
+
+**Bildskärmskrav för diagnostisk bildgranskning:**
+
+- Minsta skärmupplösning: 1280 × 800 pixlar
+- Rekommenderad skärmstorlek för diagnostisk bildgranskning: ≥ 19 tum
+- Placera arbetsstationen så att direkt ljus och reflexer på skärmen minimeras vid diagnostisk bildgranskning
+- Låt bildskärmen värmas upp i minst 5 minuter innan diagnostisk bildgranskning utförs
+
+**Webbläsare och anslutning:**
+
+- En uppdaterad webbläsare som stöds (se https://support.muntra.se för aktuell lista)
+- Stabil internetanslutning krävs (MPMS är en molnbaserad applikation)
+
+**Bildinhämtning (CaptureBackend):**
+
+- Windows-arbetsstation med .NET Framework 4.7.2 eller senare
+- Kompatibel bildutrustning (se avsnitt 6 för enheter som stöds)
 
 ## 7. Bruksanvisning
 
@@ -214,6 +259,10 @@ Sömlös integration mot röntgenprogram samt egen bildinfångning/hantering.
 
 > ⚠ **Varning:** Användaren förstår att diagnosen utförs med hjälp av en PNG-röntgenbild och inte en DICOM-bild.
 
+> ⚠ **Varning:** Om en tagen bild är av otillräcklig diagnostisk kvalitet (t.ex. på grund av rörelseoskärpa, felaktig exponering eller positioneringsfel) ska bilden tas om innan den används för kliniskt beslutsfattande.
+
+> ⚠ **Varning:** Vid nätverksavbrott buffras tagna bilder lokalt på arbetsstationen. Bekräfta att alla bilder har laddats upp till servern innan sessionen avslutas.
+
 ##### 7.3.5.1 Röntgen-UI
 
 ![](images/UI.png)
@@ -228,6 +277,8 @@ Dubbelklicka för att öppna en bild.
 ![](images/Manipulate.png)
 
 Verktygsfält ovanför bilden + sidomeny till vänster innehåller bl.a. zoom, rotera, spegelvänd, beskär och mät.
+
+> ⚠ **Varning:** Kontrollera alltid bildens orientering (vänster/höger, överkäke/underkäke) innan bilden används för diagnostik eller behandlingsplanering. Använd rotations- och spegelvändningsverktygen för att korrigera orienteringen vid behov.
 
 I toppmenyn:
 - ![](images/rotate.png) **Rotera:** varje klick roterar 90° medurs.  
@@ -320,4 +371,5 @@ Vanliga fel beskrivs och löses i <a href="https://support.muntra.se/error-handl
 | Rev2        | 2021-07-05 | Tillagd CE-märkning, förtydligad märkning, uppdaterade säkerhetsföreskrifter           | Niels Rask-Andersen  |
 | Rev3        | 2022-05-19 | Reviderad med medicinska symboler, uppdaterad produktbeskrivning                       | Niels Rask-Andersen  |
 | Rev4        | 2025-03-30 | Övergång från MDD till MDR, tillagd säkerhets- & prestandainformation samt nyttobeskrivning | Pontus Green         |
-| Rev5        | 2026-02-22 | Tillagd ansvarsfriskrivning om att diagnos utförs med PNG-röntgenbild och inte DICOM-bild. Tillagd i avsnitt 2, 5.3, 5.7 och 7.3.5. | Pontus Green         |
+| Rev5        | 2026-02-22 | Tillagd PNG/DICOM-ansvarsfriskrivning (avsnitt 2, 5.3, 5.7, 7.3.5). Tillagda ISO 14971-riskkontroller: diagnostiskt stödverktyg (5), bekräftelsebias-varning (5.3), stödda bildformat (5.8), kompatibel utrustning (6), bildkvalitet/omtagning (7.3.5), nätverksbuffring (7.3.5), bildorientering (7.3.5.2). | Pontus Green         |
+| Rev6        | 2026-03-01 | Tillagd identifiering av anmält organ (avsnitt 4). Tillagt medicintekniskt tillämpningsområde och modulklassificering (avsnitt 4.1). Tillagda försiktighetsåtgärder (avsnitt 2). Tillagda bildskärms- och systemkrav (avsnitt 6.2). Tillagt uttalande om mjukvarans livslängd (avsnitt 5.6). | Pontus Green         |

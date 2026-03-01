@@ -4,7 +4,7 @@
 
 | Doc. No. | Date of First Issue | Last Issue No. | Last Issue Date |
 | -------- | ------------------- | -------------- | --------------- |
-| 15-01    | 23 Oct 2019         | Rev5           | 22 Feb 2026     |
+| 15-01    | 23 Oct 2019         | Rev6           | 1 Mar 2026      |
 
 A physical copy of this document should be regarded as an "uncontrolled copy". The holder of an uncontrolled copy is responsible for checking the accuracy of the document. Muntra's internal handling and review of documents is only done in the electronic version.
 
@@ -14,16 +14,16 @@ If you require this document in another language, please contact us at support@m
 
 ## 1. Labeling and Symbols
 
-**Publication date:** 2026-02-22
+**Publication date:** 2026-03-01
 
-**Revision number:** Rev5
+**Revision number:** Rev6
 
 |                              |                                                                                                                                                                                                                                                   |
 | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![](images/CE.png)           | MPMS is a medical device, CE-marked in accordance with Regulation (EU) 2017/745 (MDR)EEC.                                                                                                                                                                         |
 | ![](images/Manufacturer.png) | **Manufacturer:**<br>Muntra AB<br>Narvavägen 12<br>115 22 Stockholm<br>Sweden<br><br>Phone: +46 (0)8-40 90 68 90<br>E-mail: support@muntra.se<br>Website: https://muntra.se<br><br>The **date of manufacture** is shown in the software. |
 | ![](images/IFU.png)          | **Read all instructions before use!**                                                                                                                                                                                                             |
-| ![](images/REF.png)          | The catalog number is MPMS Rev5.<br><br>Current product version is shown in the software (Version x.y.z).                                                                                                                                         |
+| ![](images/REF.png)          | The catalog number is MPMS Rev6.<br><br>Current product version is shown in the software (Version x.y.z).                                                                                                                                         |
 | ![](images/Warning.png)      | W A R N I N G !<br>This symbol alerts the user to the risk of possible injury, death or other serious adverse reactions.                                                                                                                          |
 | ![](images/Warning.png)      | C A U T I O N !<br>This symbol alerts the user to the risk of possible injury, death or other serious adverse reactions.                                                                                                                          |
 
@@ -40,6 +40,12 @@ If you require this document in another language, please contact us at support@m
 
 > ⚠ **Warning:** The user understands that the diagnosis is performed using a PNG X-ray image and not a DICOM image.
 
+**Precautions:**
+
+- Each user account is personal and must not be shared.
+- The care provider is responsible for verifying the patient's identity before treatment.
+- It is incumbent on the clinic to obtain patient approval to store patient data in line with GDPR.
+
 ## 3. Product Description
 
 ### 3.1 Product Variants
@@ -55,7 +61,7 @@ The purpose of the desktop application is to enable MPMS to communicate with X-r
 
 ## 4. Regulatory Information
 
-MPMS is a Class IIa medical device, CE-marked according to Regulation (EU) 2017/745 (MDR). The product is in compliance with European standards according to table 2.
+MPMS is a Class IIa medical device, CE-marked according to Regulation (EU) 2017/745 (MDR). The notified body is Intertek (NB 2862). The product is in compliance with European standards according to table 2.
 
 **Table 2. Compliance with European standards**
 
@@ -71,9 +77,21 @@ MPMS is a Class IIa medical device, CE-marked according to Regulation (EU) 2017/
 | MEDDEV 2.7/1 revision 4 | Clinical Evaluation: A Guide for Manufacturers and Notified Bodies                                                            |
 | Regulation (EU) 2017/745 (MDR) | Medical Devices Regulation                                                                                                     |
 
+### 4.1 Medical Device Scope
+
+MPMS is a multi-module software platform. The CE marking with Notified Body number 2862 applies exclusively to the medical device modules listed below. The remaining modules are distributed as part of the MPMS commercial platform but fall outside the scope of the CE marking under Regulation (EU) 2017/745.
+
+| Classification | Modules | CE Mark Scope |
+|---|---|---|
+| Class IIa (Rule 11) | Image Handling | CE marked — NB 2862 |
+| Class I (SaMD) | E-Prescription | Medical device; regulated by Swedish eHealth Agency. Not within scope of NB 2862 CE mark. |
+| Outside MDR scope | Third-Party X-Ray Software Integration; Electronic Health Records; Medical History; Periodontal Registration; Treatment Plans; Patient Risk Evaluation; Patient Analysis; Documents; Government Audits; Pre-Assessment Claims; Patient Data Management; Appointments Management; Scheduling and Booking; Financials; Referrals; Quality Management – Incidents | Not medical devices — outside MDR scope |
+
 ## 5. Intended Use
 
 MPMS is intended to be a tool to support decision-making and management of patient information in dentistry treatments, and to contain a Dental Imaging Software intended for imaging acquisition, storage, manipulation and diagnosis of dental images.
+
+> ℹ **Note:** MPMS is a diagnostic support tool. It does not replace independent clinical examination or professional judgement. The treating clinician retains full responsibility for all diagnostic and treatment decisions.
 
 ### 5.1 Intended User
 
@@ -89,6 +107,8 @@ When used for diagnostic purposes, the device will be used to diagnose and docum
 
 > ⚠ **Warning:** The user understands that the diagnosis is performed using a PNG X-ray image and not a DICOM image.
 
+> ⚠ **Warning:** When reviewing diagnostic images, conduct a systematic examination of all images in the series. Be aware of confirmation bias — avoid focusing solely on areas of suspected pathology.
+
 ### 5.4 Contraindications
 
 There are no known contraindications.
@@ -99,7 +119,7 @@ The primary undesirable side effect is a faulty diagnosis that leads to incorrec
 
 ### 5.6 Storage
 
-MPMS is not a consumable device and thus has no shelf lifetime. The device lifetime is ongoing as long as the technology is applicable for the clinical need.
+MPMS is not a consumable device and thus has no shelf lifetime. The device lifetime is ongoing as long as the technology is applicable for the clinical need. MPMS has a guaranteed lifetime of 5 years per license agreement, renewable by software updates and support contracts.
 
 ## 5.7 Safety Characteristics
 
@@ -130,6 +150,8 @@ The system includes a fully integrated dental imaging module capable of:
 - Storing and organizing image files (PNG and JPEG formats),
 - Performing image manipulations such as **zoom, crop, rotate, flip, and linear measurement**.
 
+> ℹ **Note:** MPMS supports PNG and JPEG image formats. Images in unsupported formats are automatically rejected by the system and will not be available for diagnostic use.
+
 ## 5.9 Expected Clinical Benefits
 
 MPMS supports dental professionals in diagnosing and managing conditions such as dental caries, periodontal disease, and jaw injuries by providing integrated access to patient data and diagnostic images.
@@ -152,6 +174,8 @@ When installing a workstation, the correct plugins needed for the attached equip
 
 Refer to the instructions on <a href="https://support.muntra.se/installation/t/7">installation</a>, <a href="https://support.muntra.se/clinic-settings/t/9">clinic settings</a> and <a href="https://support.muntra.se/user-settings/t/8">user settings</a> for further details.
 
+> ℹ **Note:** A list of supported imaging hardware (sensors, cameras) is maintained in the <a href="https://support.muntra.se/installation/t/7">installation documentation</a>. Only use imaging devices confirmed as compatible with MPMS. For devices not on the supported list, contact Muntra AB before attempting clinical use.
+
 ![](images/internet-warning.png)
 
 
@@ -166,6 +190,27 @@ Access to Muntra requires secure multi-factor authentication (MFA), using an ide
 No sensitive patient data is stored locally on client computers. All information within the system is processed and stored securely on Muntra’s cloud infrastructure, operated by certified providers that comply with applicable standards for security and availability.
 
 Permissions and access levels are managed centrally by each clinic’s administrator. This allows for strict control of access to both patient and business-critical information, in accordance with GDPR and other applicable regulations.
+
+### 6.2 System Requirements
+
+To ensure safe and effective use of MPMS, the following minimum system requirements apply:
+
+**Display requirements for diagnostic image review:**
+
+- Minimum display resolution: 1280 × 800 pixels
+- Recommended display size for diagnostic image review: ≥ 19 inches
+- Position the workstation to minimise direct light and glare on the display during diagnostic image review
+- Allow the monitor a minimum of 5 minutes warm-up time before performing diagnostic image review
+
+**Browser and connectivity:**
+
+- A supported, up-to-date web browser (refer to https://support.muntra.se for the current list of supported browsers)
+- A stable internet connection is required (MPMS is a cloud-based application)
+
+**Image acquisition (CaptureBackend):**
+
+- Windows workstation with .NET Framework 4.7.2 or later
+- Compatible imaging hardware (see Section 6 for supported devices)
 
 ## 7. Instructions for Use
 
@@ -236,6 +281,10 @@ MPMS integrates seamlessly against applicable X-ray software solutions. Also, MP
 
 > ⚠ **Warning:** The user understands that the diagnosis is performed using a PNG X-ray image and not a DICOM image.
 
+> ⚠ **Warning:** If an acquired image is of insufficient diagnostic quality (e.g. due to motion artefacts, incorrect exposure, or positioning errors), the image should be retaken before it is used for clinical decision-making.
+
+> ⚠ **Warning:** In the event of a network interruption, acquired images are buffered locally on the workstation. Before closing the session, confirm that all images have been successfully uploaded to the server.
+
 ##### 7.3.5.1 X-Ray User Interface
 
 ![](images/UI.png)
@@ -257,6 +306,8 @@ To open an image, simply double click on that image.
 In MPMS, you can easily manipulate dental images to support diagnosis and treatment. When an image is opened, you will see a toolbar above the image and an additional tool menu to the left.
 
 These menus contain a variety of functions such as zoom, rotate, flip, crop, and measurement tools. Each icon represents a feature designed to help you adjust and interpret the image effectively.
+
+> ⚠ **Warning:** Always verify image orientation (left/right, upper/lower jaw) before using the image for diagnosis or treatment planning. Use the rotate and flip tools to correct orientation if needed.
 
 In the top menu you will find:
 
@@ -362,6 +413,7 @@ Additionally, the most common errors are explained and if possible resolved in <
 | Rev2         | 2021-07-05 | Added CE mark, labeling clarification, updated safety precautions                        | Niels Rask-Andersen     |
 | Rev3         | 2022-05-19 | Revised to include medical symbols, updated product description                          | Niels Rask-Andersen     |
 | Rev4         | 2025-03-30 | Transitioned from MDD to MDR, added safety & performance information, expected benefits.  | Pontus Green     |
-| Rev5         | 2026-02-22 | Added disclaimer clarifying that diagnosis is performed using a PNG X-ray image and not a DICOM image. Disclaimer added to Sections 2, 5.3, 5.7, and 7.3.5. | Pontus Green     |
+| Rev5         | 2026-02-22 | Added PNG/DICOM disclaimer (Sections 2, 5.3, 5.7, 7.3.5). Added ISO 14971 risk control statements: diagnostic support tool disclaimer (5), confirmation bias warning (5.3), supported image formats (5.8), supported hardware reference (6), image quality retake guidance (7.3.5), network buffering notice (7.3.5), image orientation verification (7.3.5.2). | Pontus Green     |
+| Rev6         | 2026-03-01 | Added notified body identification (Section 4). Added medical device scope and module classification (Section 4.1). Added user precautions (Section 2). Added display and system requirements (Section 6.2). Added software lifetime statement (Section 5.6). | Pontus Green     |
 
 
