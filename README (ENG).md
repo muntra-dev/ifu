@@ -4,26 +4,37 @@
 
 | Doc. No. | Date of First Issue | Last Issue No. | Last Issue Date |
 | -------- | ------------------- | -------------- | --------------- |
-| 15-01    | 23 Oct 2019         | Rev6           | 1 Mar 2026      |
+| 15-01    | 23 Oct 2019         | Rev7           | 10 May 2026     |
 
 A physical copy of this document should be regarded as an "uncontrolled copy". The holder of an uncontrolled copy is responsible for checking the accuracy of the document. Muntra's internal handling and review of documents is only done in the electronic version.
 
-If you would like to receive a printed version of the Instructions for Use (IFU), please contact Muntra by email at support@muntra.se. Printed copies are provided free of charge upon request.
+<!-- [Rev7 — NC Maj 1, sub-finding 2: 7-day delivery commitment per Reg. (EU) 2021/2226, Art. 4(2)] -->
+If you would like to receive a printed version of the Instructions for Use (IFU), please contact Muntra by email at support@muntra.se. Printed copies are provided free of charge upon request and will be dispatched within 7 calendar days of receipt of the request.
 
-If you require this document in another language, please contact us at support@muntra.se. We will provide a translated version as soon as possible, in accordance with local requirements
+If you require this document in another language, please contact us at support@muntra.se. We will provide a translated version as soon as possible, in accordance with local requirements.
+
+<!-- [Rev7 — NC Maj 1, sub-finding 3: explicit eIFU locations per Reg. (EU) 2021/2226] -->
+**Where to access this IFU:** This Instructions for Use document is published electronically and is available at the following locations:
+
+- Muntra support site: https://support.muntra.com/what-are-muntras-instructions-for-use/q/155
+- GitHub repository: https://github.com/muntra-dev/ifu
+- Within the MPMS application, accessible from the in-application support section
+- Linked from the Muntra commercial website: https://www.muntra.se/
 
 ## 1. Labeling and Symbols
 
-**Publication date:** 2026-03-01
+**Publication date:** 2026-05-10
 
-**Revision number:** Rev6
+**Revision number:** Rev7
+
+<!-- [Rev7 — NC Maj 1, sub-finding 4: CE marking claim qualified pending MDR conformity assessment] -->
 
 |                              |                                                                                                                                                                                                                                                   |
 | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![](images/CE.png)           | MPMS is a medical device, CE-marked in accordance with Regulation (EU) 2017/745 (MDR)EEC.                                                                                                                                                                         |
+| ![](images/CE.png)           | MPMS is a medical device undergoing conformity assessment under Regulation (EU) 2017/745 (MDR) with Notified Body Intertek (NB 2862). MDR certification is ongoing and CE marking under the MDR will be applied upon successful completion of the assessment. |
 | ![](images/Manufacturer.png) | **Manufacturer:**<br>Muntra AB<br>Narvavägen 12<br>115 22 Stockholm<br>Sweden<br><br>Phone: +46 (0)8-40 90 68 90<br>E-mail: support@muntra.se<br>Website: https://muntra.se<br><br>The **date of manufacture** is shown in the software. |
 | ![](images/IFU.png)          | **Read all instructions before use!**                                                                                                                                                                                                             |
-| ![](images/REF.png)          | The catalog number is MPMS Rev6.<br><br>Current product version is shown in the software (Version x.y.z).                                                                                                                                         |
+| ![](images/REF.png)          | The catalog number is MPMS Rev7.<br><br>Current product version is shown in the software (Version x.y.z).                                                                                                                                         |
 | ![](images/Warning.png)      | W A R N I N G !<br>This symbol alerts the user to the risk of possible injury, death or other serious adverse reactions.                                                                                                                          |
 | ![](images/Warning.png)      | C A U T I O N !<br>This symbol alerts the user to the risk of possible injury, death or other serious adverse reactions.                                                                                                                          |
 
@@ -46,6 +57,21 @@ If you require this document in another language, please contact us at support@m
 - The care provider is responsible for verifying the patient's identity before treatment.
 - It is incumbent on the clinic to obtain patient approval to store patient data in line with GDPR.
 
+<!-- [Rev7 — NC Maj 1, sub-finding 1: limitations of 2D radiographic imaging per MDR Annex I, 23.4(s) and 23.4(g)] -->
+### 2.1 Limitations of 2D Radiographic Imaging
+
+The Image Handling module of MPMS processes and displays two-dimensional (2D) radiographic images only. Users must understand the inherent limitations of 2D radiographic imaging before relying on MPMS for diagnostic or treatment-planning purposes.
+
+> ⚠ **Warning:** MPMS supports 2D radiographic images in PNG format. It does **not** support three-dimensional (3D) imaging modalities such as cone-beam computed tomography (CBCT). Images requiring 3D reconstruction or volumetric analysis cannot be reviewed using MPMS.
+
+> ⚠ **Warning:** Measurements performed on 2D radiographic images are approximations. Distances and angles may be subject to projection geometry errors, including magnification, geometric distortion, and superimposition of overlying anatomical structures. Measured values must not be used as the sole basis for surgical planning or implant placement.
+
+> ⚠ **Warning:** 2D radiographic images cannot reveal all pathological conditions. Certain findings — including, but not limited to, early interproximal caries, hairline root fractures, small periapical lesions, and lesions superimposed by adjacent anatomy — may not be visible on a 2D image. The absence of a finding on a 2D radiograph does not exclude the presence of disease.
+
+> ℹ **Note:** For surgical procedures or treatment planning that requires precise spatial information (for example, implant placement, evaluation of impacted teeth, or assessment of the inferior alveolar nerve), the clinician should consider supplementary imaging modalities such as CBCT, in accordance with the ALARA (As Low As Reasonably Achievable) principle.
+
+> ℹ **Note:** The diagnostic value of any radiographic image depends on proper exposure technique, correct patient positioning, and the clinician's professional competence. MPMS does not compensate for deficiencies in image acquisition; it is the responsibility of the clinician to retake images of insufficient diagnostic quality.
+
 ## 3. Product Description
 
 ### 3.1 Product Variants
@@ -61,7 +87,8 @@ The purpose of the desktop application is to enable MPMS to communicate with X-r
 
 ## 4. Regulatory Information
 
-MPMS is a Class IIa medical device, CE-marked according to Regulation (EU) 2017/745 (MDR). The notified body is Intertek (NB 2862). The product is in compliance with European standards according to table 2.
+<!-- [Rev7 — NC Maj 1, sub-finding 4: regulatory status qualified pending MDR conformity assessment] -->
+MPMS is intended to be classified as a Class IIa medical device under Regulation (EU) 2017/745 (MDR), Rule 11. The device is currently undergoing conformity assessment with Notified Body Intertek (NB 2862); CE marking under the MDR will be applied upon successful completion of the assessment. The product is in compliance with European standards according to table 2.
 
 **Table 2. Compliance with European standards**
 
@@ -83,8 +110,8 @@ MPMS is a multi-module software platform. The CE marking with Notified Body numb
 
 | Classification | Modules | CE Mark Scope |
 |---|---|---|
-| Class IIa (Rule 11) | Image Handling | CE marked — NB 2862 |
-| Class I (SaMD) | E-Prescription | Medical device; regulated by Swedish eHealth Agency. Not within scope of NB 2862 CE mark. |
+| Class IIa (Rule 11) | Image Handling | Undergoing MDR conformity assessment — NB 2862 (CE mark to be applied on certification) |
+| Class I (SaMD) | E-Prescription | Medical device; regulated by Swedish eHealth Agency. Not within scope of NB 2862 conformity assessment. |
 | Outside MDR scope | Third-Party X-Ray Software Integration; Electronic Health Records; Medical History; Periodontal Registration; Treatment Plans; Patient Risk Evaluation; Patient Analysis; Documents; Government Audits; Pre-Assessment Claims; Patient Data Management; Appointments Management; Scheduling and Booking; Financials; Referrals; Quality Management – Incidents | Not medical devices — outside MDR scope |
 
 ## 5. Intended Use
@@ -195,12 +222,15 @@ Permissions and access levels are managed centrally by each clinic’s administr
 
 To ensure safe and effective use of MPMS, the following minimum system requirements apply:
 
+<!-- [Rev7 — NC Maj 1, sub-finding 5: display requirements updated to align with risk control measures] -->
 **Display requirements for diagnostic image review:**
 
-- Minimum display resolution: 1280 × 800 pixels
-- Recommended display size for diagnostic image review: ≥ 19 inches
+- Minimum display resolution: 1920 × 1080 pixels (Full HD)
+- Recommended display size for diagnostic image review: 23–24 inches (minimum 23 inches)
 - Position the workstation to minimise direct light and glare on the display during diagnostic image review
 - Allow the monitor a minimum of 5 minutes warm-up time before performing diagnostic image review
+
+> ⚠ **Warning:** Use of a display that does not meet the minimum resolution of 1920 × 1080 pixels and a minimum size of 23 inches may impair diagnostic interpretation of radiographic images and increase the risk of misdiagnosis. Diagnostic image review must not be performed on displays below these specifications.
 
 **Browser and connectivity:**
 
@@ -415,5 +445,6 @@ Additionally, the most common errors are explained and if possible resolved in <
 | Rev4         | 2025-03-30 | Transitioned from MDD to MDR, added safety & performance information, expected benefits.  | Pontus Green     |
 | Rev5         | 2026-02-22 | Added PNG/DICOM disclaimer (Sections 2, 5.3, 5.7, 7.3.5). Added ISO 14971 risk control statements: diagnostic support tool disclaimer (5), confirmation bias warning (5.3), supported image formats (5.8), supported hardware reference (6), image quality retake guidance (7.3.5), network buffering notice (7.3.5), image orientation verification (7.3.5.2). | Pontus Green     |
 | Rev6         | 2026-03-01 | Added notified body identification (Section 4). Added medical device scope and module classification (Section 4.1). Added user precautions (Section 2). Added display and system requirements (Section 6.2). Added software lifetime statement (Section 5.6). | Pontus Green     |
+| Rev7         | 2026-05-10 | Updated to address Intertek NC Maj 1 (TD00674-001, Round 2). (1) Added Section 2.1 — Limitations of 2D Radiographic Imaging (MDR Annex I 23.4(s), 23.4(g)). (2) Added 7-day delivery commitment for printed IFU copies (Reg. (EU) 2021/2226, Art. 4(2)). (3) Added explicit list of eIFU access locations on the cover page. (4) Qualified CE marking statements (Sections 1, 4, 4.1) to reflect that MDR conformity assessment is ongoing. (5) Updated Section 6.2 display requirements to 1920 × 1080 px and 23–24 inches, aligned with hazard RM-RAD-03 risk control measures. | Pontus Green     |
 
 
