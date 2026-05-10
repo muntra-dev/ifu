@@ -4,26 +4,37 @@
 
 | Dok.nr. | Dato for første utgave | Siste utgave nr. | Dato for siste utgave |
 | ------- | ---------------------- | ---------------- | --------------------- |
-| 15-01   | 23. okt. 2019          | Rev6             | 1. mar. 2026          |
+| 15-01   | 23. okt. 2019          | Rev7             | 10. mai 2026          |
 
 En fysisk kopi av dette dokumentet skal betraktes som en «ukontrollert kopi». Innehaveren av en ukontrollert kopi er ansvarlig for å kontrollere dokumentets riktighet. Muntras interne håndtering og gjennomgang av dokumenter gjøres kun i den elektroniske versjonen.
 
-Hvis du ønsker en utskrevet versjon av bruksanvisningen (IFU), kontakt Muntra på e-post support@muntra.se. Utskrifter leveres kostnadsfritt på forespørsel.
+<!-- [Rev7 — NC Maj 1, delfunn 2: leveringstid 7 dager iht. Forordning (EU) 2021/2226, Art. 4(2)] -->
+Hvis du ønsker en utskrevet versjon av bruksanvisningen (IFU), kontakt Muntra på e-post support@muntra.se. Utskrifter leveres kostnadsfritt på forespørsel og sendes innen 7 kalenderdager fra forespørselen er mottatt.
 
 Hvis du trenger dette dokumentet på et annet språk, kontakt oss på support@muntra.se. Vi leverer en oversatt versjon så snart som mulig, i samsvar med lokale krav.
 
+<!-- [Rev7 — NC Maj 1, delfunn 3: eksplisitte plasseringer for eIFU iht. Forordning (EU) 2021/2226] -->
+**Hvor bruksanvisningen er tilgjengelig:** Denne bruksanvisningen publiseres elektronisk og er tilgjengelig på følgende plasseringer:
+
+- Muntras støtteside: https://support.muntra.com/what-are-muntras-instructions-for-use/q/155
+- GitHub-repository: https://github.com/muntra-dev/ifu
+- I MPMS-applikasjonen, tilgjengelig fra støtteseksjonen i applikasjonen
+- Lenket fra Muntras kommersielle nettsted: https://www.muntra.se/
+
 ## 1. Merking og symboler
 
-**Publiseringsdato:** 2026-03-01
+**Publiseringsdato:** 2026-05-10
 
-**Revisjonsnummer:** Rev6
+**Revisjonsnummer:** Rev7
+
+<!-- [Rev7 — NC Maj 1, delfunn 4: CE-merkingspåstand kvalifisert mens MDR-samsvarsvurdering pågår] -->
 
 |                              |                                                                                                                                                                                                                                                   |
 | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![](images/CE.png)           | MPMS er et medisinsk utstyr, CE-merket i samsvar med forordning (EU) 2017/745 (MDR).                                                                                                                                                             |
+| ![](images/CE.png)           | MPMS er et medisinsk utstyr som gjennomgår samsvarsvurdering iht. forordning (EU) 2017/745 (MDR) hos teknisk kontrollorgan Intertek (NB 2862). MDR-sertifisering pågår, og CE-merking iht. MDR vil bli påført når vurderingen er fullført på vellykket måte. |
 | ![](images/Manufacturer.png) | **Produsent:**<br>Muntra AB<br>Narvavägen 12<br>115 22 Stockholm<br>Sverige<br><br>Telefon: +46 (0)8-40 90 68 90<br>E-post: support@muntra.se<br>Nettsted: https://muntra.se<br><br>**Produksjonsdato** vises i programvaren. |
 | ![](images/IFU.png)          | **Les alle instruksjoner før bruk!**                                                                                                                                                                                                             |
-| ![](images/REF.png)          | Katalognummeret er MPMS Rev6.<br><br>Nåværende produktversjon vises i programvaren (Versjon x.y.z).                                                                                                                                              |
+| ![](images/REF.png)          | Katalognummeret er MPMS Rev7.<br><br>Nåværende produktversjon vises i programvaren (Versjon x.y.z).                                                                                                                                              |
 | ![](images/Warning.png)      | A D V A R S E L !<br>Dette symbolet varsler brukeren om risiko for mulig skade, død eller andre alvorlige bivirkninger.                                                                                                                          |
 | ![](images/Warning.png)      | F O R S I K T I G !<br>Dette symbolet varsler brukeren om risiko for mulig skade, død eller andre alvorlige bivirkninger.                                                                                                                        |
 
@@ -45,6 +56,21 @@ Hvis du trenger dette dokumentet på et annet språk, kontakt oss på support@mu
 - Behandler er ansvarlig for å verifisere pasientens identitet før behandling.
 - Det påhviler klinikken å innhente pasientens samtykke til lagring av pasientdata i samsvar med GDPR.
 
+<!-- [Rev7 — NC Maj 1, delfunn 1: begrensninger ved 2D-radiografisk bildediagnostikk iht. MDR Vedlegg I, 23.4(s) og 23.4(g)] -->
+### 2.1 Begrensninger ved 2D-radiografisk bildediagnostikk
+
+Image Handling-modulen i MPMS behandler og viser kun todimensjonale (2D) røntgenbilder. Brukeren må forstå de iboende begrensningene ved 2D-røntgenbilder før MPMS legges til grunn for diagnostikk eller behandlingsplanlegging.
+
+> ⚠ **Advarsel:** MPMS støtter 2D-røntgenbilder i PNG-format. Systemet støtter **ikke** tredimensjonale (3D) bildemodaliteter som kjeglestråle-CT (CBCT, cone-beam computed tomography). Bilder som krever 3D-rekonstruksjon eller volumetrisk analyse kan ikke gjennomgås i MPMS.
+
+> ⚠ **Advarsel:** Målinger utført på 2D-røntgenbilder er tilnærminger. Avstander og vinkler kan være beheftet med feil grunnet projeksjonsgeometri, herunder forstørrelse, geometrisk forvrengning og overlagring av anatomiske strukturer. Målte verdier skal ikke brukes som eneste grunnlag for kirurgisk planlegging eller implantatplassering.
+
+> ⚠ **Advarsel:** 2D-røntgenbilder kan ikke avdekke alle patologiske tilstander. Enkelte funn — herunder, men ikke begrenset til, tidlig approksimal karies, hårfine rotfrakturer, små periapikale lesjoner samt lesjoner som er overlagret av nærliggende anatomi — kan være usynlige på et 2D-bilde. Fravær av funn på et 2D-røntgenbilde utelukker ikke forekomst av sykdom.
+
+> ℹ **Merk:** Ved kirurgiske inngrep eller behandlingsplanlegging som krever presis romlig informasjon (for eksempel implantatplassering, vurdering av impakterte tenner eller vurdering av nervus alveolaris inferior), bør klinikeren vurdere supplerende bildemodaliteter som CBCT, i tråd med ALARA-prinsippet (As Low As Reasonably Achievable).
+
+> ℹ **Merk:** Den diagnostiske verdien av et røntgenbilde avhenger av korrekt eksponeringsteknikk, korrekt pasientposisjonering samt klinikerens faglige kompetanse. MPMS kompenserer ikke for mangler i bildeopptaket; det er klinikerens ansvar å ta nye opptak av bilder som er av utilstrekkelig diagnostisk kvalitet.
+
 ## 3. Produktbeskrivelse
 
 ### 3.1 Produktvarianter
@@ -60,7 +86,8 @@ Hensikten med skrivebordsapplikasjonen er å muliggjøre kommunikasjon mellom MP
 
 ## 4. Regulatorisk informasjon
 
-MPMS er medisinsk utstyr i klasse IIa, CE-merket i henhold til forordning (EU) 2017/745 (MDR). Det tekniske kontrollorganet er Intertek (NB 2862). Produktet er i samsvar med europeiske standarder i tabell 2.
+<!-- [Rev7 — NC Maj 1, delfunn 4: regulatorisk status kvalifisert mens MDR-samsvarsvurdering pågår] -->
+MPMS er ment å klassifiseres som medisinsk utstyr i klasse IIa i henhold til forordning (EU) 2017/745 (MDR), Regel 11. Produktet gjennomgår for tiden samsvarsvurdering hos teknisk kontrollorgan Intertek (NB 2862); CE-merking iht. MDR vil bli påført når vurderingen er fullført på vellykket måte. Produktet er i samsvar med europeiske standarder i tabell 2.
 
 **Tabell 2. Samsvar med europeiske standarder**
 
@@ -82,8 +109,8 @@ MPMS er en programvareplattform med flere moduler. CE-merkingen med teknisk kont
 
 | Klassifisering | Moduler | CE-merkingens omfang |
 |---|---|---|
-| Klasse IIa (Regel 11) | Image Handling | CE-merket — NB 2862 |
-| Klasse I (SaMD) | E-Prescription | Medisinsk utstyr; regulert av svenske E-hälsomyndigheten. Ikke innenfor NB 2862 CE-merking. |
+| Klasse IIa (Regel 11) | Image Handling | Gjennomgår MDR-samsvarsvurdering — NB 2862 (CE-merking påføres ved sertifisering) |
+| Klasse I (SaMD) | E-Prescription | Medisinsk utstyr; regulert av svenske E-hälsomyndigheten. Ikke innenfor NB 2862s samsvarsvurdering. |
 | Utenfor MDR-virkeområde | Third-Party X-Ray Software Integration; Electronic Health Records; Medical History; Periodontal Registration; Treatment Plans; Patient Risk Evaluation; Patient Analysis; Documents; Government Audits; Pre-Assessment Claims; Patient Data Management; Appointments Management; Scheduling and Booking; Financials; Referrals; Quality Management – Incidents | Ikke medisinsk utstyr — utenfor MDR-virkeområde |
 
 ## 5. Tiltenkt bruk
@@ -194,12 +221,15 @@ Rettigheter og tilgangsnivåer administreres sentralt av hver klinikks administr
 
 For å sikre trygg og effektiv bruk av MPMS gjelder følgende minimumskrav:
 
+<!-- [Rev7 — NC Maj 1, delfunn 5: skjermkrav oppdatert for å samsvare med risikoreduserende tiltak] -->
 **Skjermkrav for diagnostisk bildegjennomgang:**
 
-- Minimum skjermoppløsning: 1280 × 800 piksler
-- Anbefalt skjermstørrelse for diagnostisk bildegjennomgang: ≥ 19 tommer
+- Minimum skjermoppløsning: 1920 × 1080 piksler (Full HD)
+- Anbefalt skjermstørrelse for diagnostisk bildegjennomgang: 23–24 tommer (minimum 23 tommer)
 - Plasser arbeidsstasjonen slik at direkte lys og gjenskinn på skjermen minimeres under diagnostisk bildegjennomgang
 - La skjermen varme opp i minst 5 minutter før diagnostisk bildegjennomgang utføres
+
+> ⚠ **Advarsel:** Bruk av en skjerm som ikke oppfyller minimumsoppløsningen 1920 × 1080 piksler og minimumsstørrelsen 23 tommer kan svekke den diagnostiske tolkningen av røntgenbilder og øke risikoen for feildiagnose. Diagnostisk bildegjennomgang skal ikke utføres på skjermer som ikke oppfyller disse spesifikasjonene.
 
 **Nettleser og tilkobling:**
 
@@ -411,3 +441,4 @@ I tillegg er de vanligste feilene forklart – og der mulig løst – i <a href=
 | Rev4         | 2025-03-30 | Overgang fra MDD til MDR, lagt til sikkerhets- og ytelsesinformasjon samt forventede kliniske fordeler | Pontus Green         |
 | Rev5         | 2026-02-22 | Lagt til PNG/DICOM-advarsel (avsnitt 2, 5.3, 5.7, 7.3.5). Lagt til ISO 14971-risikokontroller: diagnostisk støtteverktøy (5), bekreftelsesbias-advarsel (5.3), støttede bildeformater (5.8), kompatibelt utstyr (6), bildekvalitet/omtak (7.3.5), nettverksbufring (7.3.5), bildeorientering (7.3.5.2). | Pontus Green         |
 | Rev6         | 2026-03-01 | Lagt til identifikasjon av teknisk kontrollorgan (avsnitt 4). Lagt til omfang av medisinsk utstyr og modulklassifisering (avsnitt 4.1). Lagt til forholdsregler for brukere (avsnitt 2). Lagt til skjerm- og systemkrav (avsnitt 6.2). Lagt til uttalelse om programvarens levetid (avsnitt 5.6). | Pontus Green         |
+| Rev7         | 2026-05-10 | Oppdatert for å lukke Intertek NC Maj 1 (TD00674-001, Runde 2). (1) Lagt til avsnitt 2.1 — Begrensninger ved 2D-radiografisk bildediagnostikk (MDR Vedlegg I 23.4(s), 23.4(g)). (2) Lagt til forpliktelse om levering innen 7 kalenderdager for utskrevne kopier av bruksanvisningen (Forordning (EU) 2021/2226, Art. 4(2)). (3) Lagt til en eksplisitt liste over plasseringer der eIFU er tilgjengelig på forsiden. (4) Kvalifisert CE-merkingspåstand (avsnitt 1, 4, 4.1) for å gjenspeile at MDR-samsvarsvurdering pågår. (5) Oppdatert skjermkrav i avsnitt 6.2 til 1920 × 1080 piksler og 23–24 tommer, i samsvar med risikoreduserende tiltak for faren RM-RAD-03. | Pontus Green         |
