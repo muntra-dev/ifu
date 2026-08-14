@@ -4,7 +4,7 @@
 
 | Doc. No. | Date of First Issue | Last Issue No. | Last Issue Date |
 | -------- | ------------------- | -------------- | --------------- |
-| 15-01    | 23 Oct 2019         | Rev7           | 10 May 2026     |
+| 15-01    | 23 Oct 2019         | Rev8           | 14 Aug 2026     |
 
 A physical copy of this document should be regarded as an "uncontrolled copy". The holder of an uncontrolled copy is responsible for checking the accuracy of the document. Muntra's internal handling and review of documents is only done in the electronic version.
 
@@ -23,9 +23,17 @@ If you require this document in another language, please contact us at support@m
 
 ## 1. Labeling and Symbols
 
-**Publication date:** 2026-05-10
+**Publication date:** 2026-08-14
 
-**Revision number:** Rev7
+**Revision number:** Rev8
+
+**Basic UDI-DI:** 735016855MPMS01FV
+
+**UDI-DI (GTIN):** 07350168550002
+
+The UDI carrier is also displayed on the software label within the application (About/Label screen).
+
+The current software version is displayed in the application's About screen.
 
 <!-- [Rev7 — NC Maj 1, sub-finding 4: CE marking claim qualified pending MDR conformity assessment] -->
 
@@ -89,6 +97,8 @@ The purpose of the desktop application is to enable MPMS to communicate with X-r
 
 <!-- [Rev7 — NC Maj 1, sub-finding 4: regulatory status qualified pending MDR conformity assessment] -->
 MPMS is intended to be classified as a Class IIa medical device under Regulation (EU) 2017/745 (MDR), Rule 11. The device is currently undergoing conformity assessment with Notified Body Intertek (NB 2862); CE marking under the MDR will be applied upon successful completion of the assessment. The product is in compliance with European standards according to table 2.
+
+The medical device component of MPMS is the Image Handling Module (Class IIa, Rule 11). The Third-Party X-Ray Software Integration module and the administrative modules are not medical devices and fall outside the scope of Regulation (EU) 2017/745. See the Classification Justification Document (Doc 012) for the complete module classification.
 
 **Table 2. Compliance with European standards**
 
@@ -229,6 +239,7 @@ To ensure safe and effective use of MPMS, the following minimum system requireme
 - Recommended display size for diagnostic image review: 23–24 inches (minimum 23 inches)
 - Position the workstation to minimise direct light and glare on the display during diagnostic image review
 - Allow the monitor a minimum of 5 minutes warm-up time before performing diagnostic image review
+- An IPS or PVA panel is recommended over TN panels for optimum diagnostic image quality.
 
 > ⚠ **Warning:** Use of a display that does not meet the minimum resolution of 1920 × 1080 pixels and a minimum size of 23 inches may impair diagnostic interpretation of radiographic images and increase the risk of misdiagnosis. Diagnostic image review must not be performed on displays below these specifications.
 
@@ -446,5 +457,6 @@ Additionally, the most common errors are explained and if possible resolved in <
 | Rev5         | 2026-02-22 | Added PNG/DICOM disclaimer (Sections 2, 5.3, 5.7, 7.3.5). Added ISO 14971 risk control statements: diagnostic support tool disclaimer (5), confirmation bias warning (5.3), supported image formats (5.8), supported hardware reference (6), image quality retake guidance (7.3.5), network buffering notice (7.3.5), image orientation verification (7.3.5.2). | Pontus Green     |
 | Rev6         | 2026-03-01 | Added notified body identification (Section 4). Added medical device scope and module classification (Section 4.1). Added user precautions (Section 2). Added display and system requirements (Section 6.2). Added software lifetime statement (Section 5.6). | Pontus Green     |
 | Rev7         | 2026-05-10 | Updated to address Intertek NC Maj 1 (TD00674-001, Round 2). (1) Added Section 2.1 — Limitations of 2D Radiographic Imaging (MDR Annex I 23.4(s), 23.4(g)). (2) Added 7-day delivery commitment for printed IFU copies (Reg. (EU) 2021/2226, Art. 4(2)). (3) Added explicit list of eIFU access locations on the cover page. (4) Qualified CE marking statements (Sections 1, 4, 4.1) to reflect that MDR conformity assessment is ongoing. (5) Updated Section 6.2 display requirements to 1920 × 1080 px and 23–24 inches, aligned with hazard RM-RAD-03 risk control measures. | Pontus Green     |
+| Rev8         | 2026-08-14 | Added Basic UDI-DI and UDI-DI, panel type recommendation, module scope statement, and software version reference per IFU Consistency Checklist (EIFU-02). | Pontus Green     |
 
 

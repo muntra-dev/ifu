@@ -4,7 +4,7 @@
 
 | Dok.nr. | Dato for første utgave | Siste utgave nr. | Dato for siste utgave |
 | ------- | ---------------------- | ---------------- | --------------------- |
-| 15-01   | 23. okt. 2019          | Rev7             | 10. mai 2026          |
+| 15-01   | 23. okt. 2019          | Rev8             | 14. aug. 2026         |
 
 En fysisk kopi av dette dokumentet skal betraktes som en «ukontrollert kopi». Innehaveren av en ukontrollert kopi er ansvarlig for å kontrollere dokumentets riktighet. Muntras interne håndtering og gjennomgang av dokumenter gjøres kun i den elektroniske versjonen.
 
@@ -23,9 +23,17 @@ Hvis du trenger dette dokumentet på et annet språk, kontakt oss på support@mu
 
 ## 1. Merking og symboler
 
-**Publiseringsdato:** 2026-05-10
+**Publiseringsdato:** 2026-08-14
 
-**Revisjonsnummer:** Rev7
+**Revisjonsnummer:** Rev8
+
+**Grunnleggende UDI-DI:** 735016855MPMS01FV
+
+**UDI-DI (GTIN):** 07350168550002
+
+UDI-bæreren vises også på programvarens etikett i applikasjonen (skjermbildet Om/Etikett).
+
+Gjeldende programvareversjon vises på applikasjonens Om-skjerm.
 
 <!-- [Rev7 — NC Maj 1, delfunn 4: CE-merkingspåstand kvalifisert mens MDR-samsvarsvurdering pågår] -->
 
@@ -88,6 +96,8 @@ Hensikten med skrivebordsapplikasjonen er å muliggjøre kommunikasjon mellom MP
 
 <!-- [Rev7 — NC Maj 1, delfunn 4: regulatorisk status kvalifisert mens MDR-samsvarsvurdering pågår] -->
 MPMS er ment å klassifiseres som medisinsk utstyr i klasse IIa i henhold til forordning (EU) 2017/745 (MDR), Regel 11. Produktet gjennomgår for tiden samsvarsvurdering hos teknisk kontrollorgan Intertek (NB 2862); CE-merking iht. MDR vil bli påført når vurderingen er fullført på vellykket måte. Produktet er i samsvar med europeiske standarder i tabell 2.
+
+Den medisinsktekniske komponenten i MPMS er bildehåndteringsmodulen (klasse IIa, regel 11). Modulen for integrasjon med tredjeparts røntgenprogramvare samt de administrative modulene er ikke medisinsk utstyr og omfattes ikke av forordning (EU) 2017/745. Se klassifiseringsdokumentet (Doc 012) for fullstendig modulklassifisering.
 
 **Tabell 2. Samsvar med europeiske standarder**
 
@@ -228,6 +238,7 @@ For å sikre trygg og effektiv bruk av MPMS gjelder følgende minimumskrav:
 - Anbefalt skjermstørrelse for diagnostisk bildegjennomgang: 23–24 tommer (minimum 23 tommer)
 - Plasser arbeidsstasjonen slik at direkte lys og gjenskinn på skjermen minimeres under diagnostisk bildegjennomgang
 - La skjermen varme opp i minst 5 minutter før diagnostisk bildegjennomgang utføres
+- Et IPS- eller PVA-panel anbefales fremfor TN-paneler for optimal diagnostisk bildekvalitet.
 
 > ⚠ **Advarsel:** Bruk av en skjerm som ikke oppfyller minimumsoppløsningen 1920 × 1080 piksler og minimumsstørrelsen 23 tommer kan svekke den diagnostiske tolkningen av røntgenbilder og øke risikoen for feildiagnose. Diagnostisk bildegjennomgang skal ikke utføres på skjermer som ikke oppfyller disse spesifikasjonene.
 
@@ -442,3 +453,4 @@ I tillegg er de vanligste feilene forklart – og der mulig løst – i <a href=
 | Rev5         | 2026-02-22 | Lagt til PNG/DICOM-advarsel (avsnitt 2, 5.3, 5.7, 7.3.5). Lagt til ISO 14971-risikokontroller: diagnostisk støtteverktøy (5), bekreftelsesbias-advarsel (5.3), støttede bildeformater (5.8), kompatibelt utstyr (6), bildekvalitet/omtak (7.3.5), nettverksbufring (7.3.5), bildeorientering (7.3.5.2). | Pontus Green         |
 | Rev6         | 2026-03-01 | Lagt til identifikasjon av teknisk kontrollorgan (avsnitt 4). Lagt til omfang av medisinsk utstyr og modulklassifisering (avsnitt 4.1). Lagt til forholdsregler for brukere (avsnitt 2). Lagt til skjerm- og systemkrav (avsnitt 6.2). Lagt til uttalelse om programvarens levetid (avsnitt 5.6). | Pontus Green         |
 | Rev7         | 2026-05-10 | Oppdatert for å lukke Intertek NC Maj 1 (TD00674-001, Runde 2). (1) Lagt til avsnitt 2.1 — Begrensninger ved 2D-radiografisk bildediagnostikk (MDR Vedlegg I 23.4(s), 23.4(g)). (2) Lagt til forpliktelse om levering innen 7 kalenderdager for utskrevne kopier av bruksanvisningen (Forordning (EU) 2021/2226, Art. 4(2)). (3) Lagt til en eksplisitt liste over plasseringer der eIFU er tilgjengelig på forsiden. (4) Kvalifisert CE-merkingspåstand (avsnitt 1, 4, 4.1) for å gjenspeile at MDR-samsvarsvurdering pågår. (5) Oppdatert skjermkrav i avsnitt 6.2 til 1920 × 1080 piksler og 23–24 tommer, i samsvar med risikoreduserende tiltak for faren RM-RAD-03. | Pontus Green         |
+| Rev8         | 2026-08-14 | Lagt til grunnleggende UDI-DI og UDI-DI, anbefaling om paneltype, erklæring om modulomfang samt henvisning til programvareversjon iht. IFU Consistency Checklist (EIFU-02). | Pontus Green         |
