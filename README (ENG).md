@@ -1,4 +1,4 @@
-![](images/label.png)
+![](images/label-art120.png)
 
 # Muntra Patient Management System (“MPMS”) Instructions For Use
 
@@ -27,7 +27,7 @@ If you require this document in another language, please contact us at support@m
 
 **Revision number:** Rev8
 
-**Basic UDI-DI:** 735016855MPMS01FV
+**Basic UDI-DI:** 735016855mpms01EC
 
 **UDI-DI (GTIN):** 07350168550002
 
@@ -39,7 +39,7 @@ The current software version is displayed in the application's About screen.
 
 |                              |                                                                                                                                                                                                                                                   |
 | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![](images/CE.png)           | MPMS is a medical device undergoing conformity assessment under Regulation (EU) 2017/745 (MDR) with Notified Body Intertek (NB 2862). MDR certification is ongoing and CE marking under the MDR will be applied upon successful completion of the assessment. |
+| ![](images/CE.png)           | MPMS is CE marked as a Class IIa medical device under Council Directive 93/42/EEC (MDD), EC certificate CE-MDD-0089/03/2021/01 issued by Notified Body NOTICE (NB 2764). MPMS is placed on the market as a legacy device under the transitional provisions of Article 120 of Regulation (EU) 2017/745 (MDR). Conformity assessment under the MDR is ongoing with Notified Body Intertek (NB 2862), which also performs the appropriate surveillance during the transitional period in accordance with Article 120(3e) MDR. MPMS is not yet certified under the MDR. |
 | ![](images/Manufacturer.png) | **Manufacturer:**<br>Muntra AB<br>Narvavägen 12<br>115 22 Stockholm<br>Sweden<br><br>Phone: +46 (0)8-40 90 68 90<br>E-mail: support@muntra.se<br>Website: https://muntra.se<br><br>The **date of manufacture** is shown in the software. |
 | ![](images/IFU.png)          | **Read all instructions before use!**                                                                                                                                                                                                             |
 | ![](images/REF.png)          | The catalog number is MPMS Rev7.<br><br>Current product version is shown in the software (Version x.y.z).                                                                                                                                         |
@@ -96,9 +96,9 @@ The purpose of the desktop application is to enable MPMS to communicate with X-r
 ## 4. Regulatory Information
 
 <!-- [Rev7 — NC Maj 1, sub-finding 4: regulatory status qualified pending MDR conformity assessment] -->
-MPMS is intended to be classified as a Class IIa medical device under Regulation (EU) 2017/745 (MDR), Rule 11. The device is currently undergoing conformity assessment with Notified Body Intertek (NB 2862); CE marking under the MDR will be applied upon successful completion of the assessment. The product is in compliance with European standards according to table 2.
+MPMS is CE marked as a Class IIa medical device under Council Directive 93/42/EEC (MDD) on the basis of EC certificate CE-MDD-0089/03/2021/01 issued by Notified Body NOTICE (NB 2764). The device continues to be placed on the market as a legacy device under the transitional provisions of Article 120 of Regulation (EU) 2017/745 (MDR). In accordance with Article 120(3) MDR, the MDR requirements on post-market surveillance, market surveillance, vigilance and registration of economic operators and devices apply in place of the corresponding MDD requirements. Muntra has applied for conformity assessment under the MDR with Notified Body Intertek (NB 2862), which also performs the appropriate surveillance during the transitional period (Article 120(3e) MDR). Under the MDR, MPMS is intended to be classified as a Class IIa medical device (Rule 11); MPMS is not yet certified under the MDR, and CE marking with Notified Body number 2862 will be applied only upon successful completion of that assessment. The product is in compliance with European standards according to table 2.
 
-The medical device component of MPMS is the Image Handling Module (Class IIa, Rule 11). The Third-Party X-Ray Software Integration module and the administrative modules are not medical devices and fall outside the scope of Regulation (EU) 2017/745. See the Classification Justification Document (Doc 012) for the complete module classification.
+The medical device component of MPMS is the Image Handling Module (Class IIa under the MDD; intended Class IIa, Rule 11 under the MDR). The Third-Party X-Ray Software Integration module and the administrative modules are not medical devices and fall outside the scope of Regulation (EU) 2017/745. See the Classification Justification Document (Doc 012) for the complete module classification.
 
 **Table 2. Compliance with European standards**
 
@@ -112,15 +112,16 @@ The medical device component of MPMS is the Image Handling Module (Class IIa, Ru
 | ISO 27001:2013          | Information technology — Security techniques — Information security management systems — Requirements                         |
 | MEDDEV 2.12/2 rev2      | Post-market Clinical Follow-up Studies                                                                                        |
 | MEDDEV 2.7/1 revision 4 | Clinical Evaluation: A Guide for Manufacturers and Notified Bodies                                                            |
-| Regulation (EU) 2017/745 (MDR) | Medical Devices Regulation                                                                                                     |
+| Council Directive 93/42/EEC (MDD) | Medical Devices Directive — basis for the current CE marking (legacy device under Article 120 MDR) |
+| Regulation (EU) 2017/745 (MDR), Article 120(3) | Medical Devices Regulation — requirements on post-market surveillance, market surveillance, vigilance and registration |
 
 ### 4.1 Medical Device Scope
 
-MPMS is a multi-module software platform. The CE marking with Notified Body number 2862 applies exclusively to the medical device modules listed below. The remaining modules are distributed as part of the MPMS commercial platform but fall outside the scope of the CE marking under Regulation (EU) 2017/745.
+MPMS is a multi-module software platform. The CE marking with Notified Body number 2764 applies exclusively to the Image Handling module listed below. The remaining modules are distributed as part of the MPMS commercial platform but fall outside the scope of the CE marking.
 
 | Classification | Modules | CE Mark Scope |
 |---|---|---|
-| Class IIa (Rule 11) | Image Handling | Undergoing MDR conformity assessment — NB 2862 (CE mark to be applied on certification) |
+| Class IIa (MDD; intended Class IIa, Rule 11 under the MDR) | Image Handling | CE marked under Directive 93/42/EEC (MDD) — NB 2764; legacy device under Article 120 MDR. MDR conformity assessment ongoing — NB 2862 (CE marking under the MDR to be applied on certification). |
 | Class I (SaMD) | E-Prescription | Medical device; regulated by Swedish eHealth Agency. Not within scope of NB 2862 conformity assessment. |
 | Outside MDR scope | Third-Party X-Ray Software Integration; Electronic Health Records; Medical History; Periodontal Registration; Treatment Plans; Patient Risk Evaluation; Patient Analysis; Documents; Government Audits; Pre-Assessment Claims; Patient Data Management; Appointments Management; Scheduling and Booking; Financials; Referrals; Quality Management – Incidents | Not medical devices — outside MDR scope |
 

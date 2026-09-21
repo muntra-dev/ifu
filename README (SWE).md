@@ -1,4 +1,4 @@
-![](images/label.png)
+![](images/label-art120.png)
 
 # Muntra Patient Management System (“MPMS”) Bruksanvisning (Instructions For Use)
 
@@ -26,7 +26,7 @@ Om du behöver detta dokument på ett annat språk, vänligen kontakta oss på s
 **Publiceringsdatum:** 2026-08-14
 **Revisionsnummer:** Rev8
 
-**Grundläggande UDI-DI:** 735016855MPMS01FV
+**Grundläggande UDI-DI:** 735016855mpms01EC
 
 **UDI-DI (GTIN):** 07350168550002
 
@@ -38,7 +38,7 @@ Aktuell programvaruversion visas på applikationens Om-skärm.
 
 |                              |                                                                                                                                                                                                                                                   |
 | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![](images/CE.png)           | MPMS är en medicinteknisk produkt som genomgår överensstämmelsebedömning enligt Förordning (EU) 2017/745 (MDR) hos anmält organ Intertek (NB 2862). MDR-certifiering pågår och CE-märkning enligt MDR kommer att tillämpas när bedömningen har slutförts framgångsrikt. |
+| ![](images/CE.png)           | MPMS är CE-märkt som medicinteknisk produkt i klass IIa enligt rådets direktiv 93/42/EEG (MDD), EG-intyg CE-MDD-0089/03/2021/01 utfärdat av anmält organ NOTICE (NB 2764). MPMS släpps ut på marknaden som en så kallad legacy-produkt enligt övergångsbestämmelserna i artikel 120 i förordning (EU) 2017/745 (MDR). Bedömning av överensstämmelse enligt MDR pågår hos anmält organ Intertek (NB 2862), som även utför lämplig övervakning under övergångsperioden i enlighet med artikel 120.3e i MDR. MPMS är ännu inte certifierad enligt MDR. |
 | ![](images/Manufacturer.png) | **Tillverkare:**<br>Muntra AB<br>Narvavägen 12<br>115 22 Stockholm<br>Sverige<br><br>Telefon: +46 (0)8-40 90 68 90<br>E-post: support@muntra.se<br>Webbplats: https://muntra.se<br><br>**Tillverkningsdatum** visas i mjukvaran. |
 | ![](images/IFU.png)          | **Läs alla instruktioner före användning!**                                                                                                                                                                                                      |
 | ![](images/REF.png)          | Katalognumret är MPMS Rev7.<br><br>Aktuell produktversion visas i mjukvaran (Version x.y.z).                                                                                                                                                      |
@@ -92,9 +92,9 @@ Desktop-applikationen är utvecklad med samma kodbas som version 1. Syftet är a
 ## 4. Regulatorisk information
 
 <!-- [Rev7 — NC Maj 1, delfynd 4: regulatorisk status kvalificerad då MDR-överensstämmelsebedömning pågår] -->
-MPMS är avsedd att klassificeras som en medicinteknisk produkt i klass IIa enligt Förordning (EU) 2017/745 (MDR), Regel 11. Produkten genomgår för närvarande överensstämmelsebedömning hos anmält organ Intertek (NB 2862); CE-märkning enligt MDR kommer att tillämpas när bedömningen har slutförts framgångsrikt. Produkten uppfyller europeiska standarder enligt tabell 2.
+MPMS är CE-märkt som medicinteknisk produkt i klass IIa enligt rådets direktiv 93/42/EEG (MDD) på grundval av EG-intyg CE-MDD-0089/03/2021/01 utfärdat av anmält organ NOTICE (NB 2764). Produkten fortsätter att släppas ut på marknaden som en så kallad legacy-produkt enligt övergångsbestämmelserna i artikel 120 i förordning (EU) 2017/745 (MDR). I enlighet med artikel 120.3 i MDR tillämpas MDR:s krav på övervakning av produkter som släppts ut på marknaden, marknadskontroll, säkerhetsövervakning samt registrering av ekonomiska aktörer och produkter i stället för motsvarande krav i MDD. Muntra har ansökt om bedömning av överensstämmelse enligt MDR hos anmält organ Intertek (NB 2862), som även utför lämplig övervakning under övergångsperioden (artikel 120.3e i MDR). Enligt MDR är MPMS avsedd att klassificeras som medicinteknisk produkt i klass IIa (regel 11); MPMS är ännu inte certifierad enligt MDR, och CE-märkning med anmält organ nummer 2862 kommer att tillämpas först när den bedömningen har slutförts framgångsrikt. Produkten uppfyller europeiska standarder enligt tabell 2.
 
-Den medicintekniska komponenten i MPMS är bildhanteringsmodulen (klass IIa, regel 11). Modulen för integration med tredjeparts röntgenprogramvara samt de administrativa modulerna är inte medicintekniska produkter och omfattas inte av förordning (EU) 2017/745. Se klassificeringsdokumentet (Doc 012) för fullständig modulklassificering.
+Den medicintekniska komponenten i MPMS är bildhanteringsmodulen (klass IIa enligt MDD; avsedd klass IIa, regel 11 enligt MDR). Modulen för integration med tredjeparts röntgenprogramvara samt de administrativa modulerna är inte medicintekniska produkter och omfattas inte av förordning (EU) 2017/745. Se klassificeringsdokumentet (Doc 012) för fullständig modulklassificering.
 
 **Tabell 2. Överensstämmelse med europeiska standarder**
 
@@ -108,15 +108,16 @@ Den medicintekniska komponenten i MPMS är bildhanteringsmodulen (klass IIa, reg
 | ISO 27001:2013          | Informationsteknik — Säkerhetstekniker — Ledningssystem för informationssäkerhet — Krav                                          |
 | MEDDEV 2.12/2 rev2      | Kliniska uppföljningsstudier efter utsläppande på marknaden                                                                      |
 | MEDDEV 2.7/1 revision 4 | Klinisk utvärdering: Vägledning för tillverkare och anmälda organ                                                                 |
-| Förordning (EU) 2017/745 (MDR) | Förordningen om medicintekniska produkter                                                                                         |
+| Rådets direktiv 93/42/EEG (MDD) | Direktivet om medicintekniska produkter — grund för nuvarande CE-märkning (legacy-produkt enligt artikel 120 i MDR) |
+| Förordning (EU) 2017/745 (MDR), artikel 120.3 | Förordningen om medicintekniska produkter — krav på övervakning av produkter som släppts ut på marknaden, marknadskontroll, säkerhetsövervakning och registrering |
 
 ### 4.1 Medicintekniskt tillämpningsområde
 
-MPMS är en mjukvaruplattform med flera moduler. CE-märkningen med anmält organ nummer 2862 gäller uteslutande de medicintekniska moduler som anges nedan. Övriga moduler distribueras som del av MPMS kommersiella plattform men faller utanför CE-märkningens tillämpningsområde enligt Förordning (EU) 2017/745.
+MPMS är en mjukvaruplattform med flera moduler. CE-märkningen med anmält organ nummer 2764 gäller uteslutande modulen Image Handling som anges nedan. Övriga moduler distribueras som del av MPMS kommersiella plattform men faller utanför CE-märkningens tillämpningsområde.
 
 | Klassificering | Moduler | CE-märkningens omfattning |
 |---|---|---|
-| Klass IIa (Regel 11) | Image Handling | Genomgår MDR-överensstämmelsebedömning — NB 2862 (CE-märkning tillämpas vid certifiering) |
+| Klass IIa (MDD; avsedd klass IIa, regel 11 enligt MDR) | Image Handling | CE-märkt enligt direktiv 93/42/EEG (MDD) — NB 2764; legacy-produkt enligt artikel 120 i MDR. MDR-överensstämmelsebedömning pågår — NB 2862 (CE-märkning enligt MDR tillämpas vid certifiering). |
 | Klass I (SaMD) | E-Prescription | Medicinteknisk produkt; reglerad av E-hälsomyndigheten. Ingår ej i NB 2862:s överensstämmelsebedömning. |
 | Utanför MDR:s tillämpningsområde | Third-Party X-Ray Software Integration; Electronic Health Records; Medical History; Periodontal Registration; Treatment Plans; Patient Risk Evaluation; Patient Analysis; Documents; Government Audits; Pre-Assessment Claims; Patient Data Management; Appointments Management; Scheduling and Booking; Financials; Referrals; Quality Management – Incidents | Ej medicintekniska produkter — utanför MDR:s tillämpningsområde |
 
